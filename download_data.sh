@@ -10,3 +10,4 @@ echo "Downloading folder 'model'..."
 gdown --folder "$MODEL_URL"
 
 echo "Download completed."
+

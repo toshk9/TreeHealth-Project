@@ -1,6 +1,6 @@
 # Tree Health Classification Project
 
-This project implements a deep learning model to classify tree health conditions based on the NYC Street Tree Census dataset. The model uses both categorical and numerical features to predict tree health status as Good, Fair, or Poor.
+This project implements a deep learning model to classify tree health conditions based on the NYC Street Tree Census dataset. The model uses both categorical and numerical features to predict tree health status as Good, Fair, or Poor. An API is also provided to facilitate model inference.
 
 ## Model Performance
 
@@ -24,16 +24,20 @@ Class labels:
 ## Project Structure
 
 ```
-TEST-CV-PROJECT/
-├── api/                # API implementation
-├── data/              # Data storage
-├── hyperopt/          # Hyperparameter optimization
-├── models/            # Model storage
-├── notebooks/         # Jupyter notebooks
-├── src/               # Source code
-│   ├── dataset.py     # Dataset handling
-│   └── model.py       # Model implementation
-└── utils/             # Utility functions
+TREE-HEALTH-PROJECT/
+├───data
+│   ├───processed
+│   └───raw
+├───hyperopt
+├───models
+│   ├───preprocessors
+│   │   └───label_encoders
+│   └───torch_models
+├───notebooks
+└────src
+    ├───api
+    ├───data
+    └───utils
 ```
 
 ## Model Architecture
@@ -63,9 +67,43 @@ The model uses a TabularModel architecture that:
 pip install -r requirements.txt
 ```
 
-## Usage
+## Installation and Usage
 
-### Training
+1. Clone repository
+```bash
+git clone https://github.com/toshk9/TreeHealth-Project.git tree-health-project
+cd tree-health-project
+``` 
+2. Set up virtual environment
+```bash
+python -m venv venv
+venv/Scripts/activate
+```
+3. Install requirements
+```bash
+pip install -r requirements.txt
+```
+4. Download necessary data from remote storage (Google Drive) (tree data and models)
+- Linux based systems:
+```bash
+chmod +x download_data.sh
+./download_data.sh
+```
+- Windows based systems:
+```powershell
+./download_data.bat
+```
+- Or download it manually in case of any errors:
+data: https://drive.google.com/drive/folders/1V0UEf9TG8c7UmzBOIboh-UUoiQ0ZUZox?usp=drive_link
+models: https://drive.google.com/drive/folders/1ESgZgkqz9okM9XJnmfFGXaoz3QMnzYI2?usp=drive_link
+
+5. Running the API Server
+```bash
+uvicorn src.main:app --host 0.0.0.0 --port 8000
+```
+6. Send post request on 'localhost:8000/models/v1' in appopriate form
+
+### Model Training
 
 ```python
 from src.model import TabularModel
@@ -104,6 +142,7 @@ predictions = model.predict(test_loader, device)
 - shap
 - matplotlib
 etc.
+(For the complete list, see the requirements.txt file.)
 
 ## Data Source
 
@@ -111,15 +150,19 @@ This project uses the NYC Street Tree Census 2015 dataset, which includes detail
 
 ## Future Improvements
 
-1. Implement data augmentation techniques
-2. Improve model performance for minority classes
-3. Add cross-validation support
+1. Improve model performance for minority classes
+2. Add cross-validation support
+3. Expand API functionality with additional endpoints
+4. Explore advanced data augmentation and feature engineering techniques.
 
-## License
+## Contribution
+Contributions are welcome! Please fork the repository and submit pull requests. For major changes, open an issue first to discuss your ideas.
 
-[Add your license information here]
+## Acknowledgements
+- NYC Street Tree Census Team: For providing the dataset.
+- Open Source Community: For the tools and libraries that made this project possible.
 
 ## Contact
 
-email: ivan.vishniak@bk.ru
-tg: @ivanlittlelad
+Email: ivan.vishniak@bk.ru
+Telegram: @ivanlittlelad
