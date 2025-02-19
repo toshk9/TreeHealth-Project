@@ -1,0 +1,5952 @@
+[
+  {
+    "state": 2,
+    "tid": 0,
+    "spec": null,
+    "result": {
+      "loss": -0.5816044896269378,
+      "status": "ok",
+      "params": {
+        "batch_size": 880.0,
+        "cat_emb_dim_0": 17.0,
+        "cat_emb_dim_1": 14.0,
+        "cat_emb_dim_2": 2.0,
+        "cat_emb_dim_3": 18.0,
+        "cat_emb_dim_4": 16.0,
+        "cat_emb_dim_5": 16.0,
+        "cat_emb_dim_6": 10.0,
+        "cat_emb_dim_7": 17.0,
+        "dropout_p": 0.8922952807787555,
+        "hidden_dim": 87.0,
+        "learning_rate": 0.0015614337031093918,
+        "weight_decay": 5.462644349666094e-06
+      }
+    },
+    "misc": {
+      "tid": 0,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          0
+        ],
+        "cat_emb_dim_0": [
+          0
+        ],
+        "cat_emb_dim_1": [
+          0
+        ],
+        "cat_emb_dim_2": [
+          0
+        ],
+        "cat_emb_dim_3": [
+          0
+        ],
+        "cat_emb_dim_4": [
+          0
+        ],
+        "cat_emb_dim_5": [
+          0
+        ],
+        "cat_emb_dim_6": [
+          0
+        ],
+        "cat_emb_dim_7": [
+          0
+        ],
+        "dropout_p": [
+          0
+        ],
+        "hidden_dim": [
+          0
+        ],
+        "learning_rate": [
+          0
+        ],
+        "weight_decay": [
+          0
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          880.0
+        ],
+        "cat_emb_dim_0": [
+          17.0
+        ],
+        "cat_emb_dim_1": [
+          14.0
+        ],
+        "cat_emb_dim_2": [
+          2.0
+        ],
+        "cat_emb_dim_3": [
+          18.0
+        ],
+        "cat_emb_dim_4": [
+          16.0
+        ],
+        "cat_emb_dim_5": [
+          16.0
+        ],
+        "cat_emb_dim_6": [
+          10.0
+        ],
+        "cat_emb_dim_7": [
+          17.0
+        ],
+        "dropout_p": [
+          0.8922952807787555
+        ],
+        "hidden_dim": [
+          87.0
+        ],
+        "learning_rate": [
+          0.0015614337031093918
+        ],
+        "weight_decay": [
+          5.462644349666094e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:37:16.724000",
+    "refresh_time": "2025-02-17T00:39:17.344000"
+  },
+  {
+    "state": 2,
+    "tid": 1,
+    "spec": null,
+    "result": {
+      "loss": -0.5765981262554242,
+      "status": "ok",
+      "params": {
+        "batch_size": 872.0,
+        "cat_emb_dim_0": 12.0,
+        "cat_emb_dim_1": 7.0,
+        "cat_emb_dim_2": 11.0,
+        "cat_emb_dim_3": 4.0,
+        "cat_emb_dim_4": 7.0,
+        "cat_emb_dim_5": 8.0,
+        "cat_emb_dim_6": 17.0,
+        "cat_emb_dim_7": 19.0,
+        "dropout_p": 0.32060284005739337,
+        "hidden_dim": 118.0,
+        "learning_rate": 0.0001449622555080378,
+        "weight_decay": 1.1685825012198868e-05
+      }
+    },
+    "misc": {
+      "tid": 1,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          1
+        ],
+        "cat_emb_dim_0": [
+          1
+        ],
+        "cat_emb_dim_1": [
+          1
+        ],
+        "cat_emb_dim_2": [
+          1
+        ],
+        "cat_emb_dim_3": [
+          1
+        ],
+        "cat_emb_dim_4": [
+          1
+        ],
+        "cat_emb_dim_5": [
+          1
+        ],
+        "cat_emb_dim_6": [
+          1
+        ],
+        "cat_emb_dim_7": [
+          1
+        ],
+        "dropout_p": [
+          1
+        ],
+        "hidden_dim": [
+          1
+        ],
+        "learning_rate": [
+          1
+        ],
+        "weight_decay": [
+          1
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          872.0
+        ],
+        "cat_emb_dim_0": [
+          12.0
+        ],
+        "cat_emb_dim_1": [
+          7.0
+        ],
+        "cat_emb_dim_2": [
+          11.0
+        ],
+        "cat_emb_dim_3": [
+          4.0
+        ],
+        "cat_emb_dim_4": [
+          7.0
+        ],
+        "cat_emb_dim_5": [
+          8.0
+        ],
+        "cat_emb_dim_6": [
+          17.0
+        ],
+        "cat_emb_dim_7": [
+          19.0
+        ],
+        "dropout_p": [
+          0.32060284005739337
+        ],
+        "hidden_dim": [
+          118.0
+        ],
+        "learning_rate": [
+          0.0001449622555080378
+        ],
+        "weight_decay": [
+          1.1685825012198868e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:39:17.344000",
+    "refresh_time": "2025-02-17T00:43:05.081000"
+  },
+  {
+    "state": 2,
+    "tid": 2,
+    "spec": null,
+    "result": {
+      "loss": -0.5626447092015885,
+      "status": "ok",
+      "params": {
+        "batch_size": 1826.0,
+        "cat_emb_dim_0": 17.0,
+        "cat_emb_dim_1": 8.0,
+        "cat_emb_dim_2": 3.0,
+        "cat_emb_dim_3": 15.0,
+        "cat_emb_dim_4": 1.0,
+        "cat_emb_dim_5": 6.0,
+        "cat_emb_dim_6": 14.0,
+        "cat_emb_dim_7": 2.0,
+        "dropout_p": 0.48744168145157557,
+        "hidden_dim": 43.0,
+        "learning_rate": 0.004696709153659178,
+        "weight_decay": 7.113199119344985e-06
+      }
+    },
+    "misc": {
+      "tid": 2,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          2
+        ],
+        "cat_emb_dim_0": [
+          2
+        ],
+        "cat_emb_dim_1": [
+          2
+        ],
+        "cat_emb_dim_2": [
+          2
+        ],
+        "cat_emb_dim_3": [
+          2
+        ],
+        "cat_emb_dim_4": [
+          2
+        ],
+        "cat_emb_dim_5": [
+          2
+        ],
+        "cat_emb_dim_6": [
+          2
+        ],
+        "cat_emb_dim_7": [
+          2
+        ],
+        "dropout_p": [
+          2
+        ],
+        "hidden_dim": [
+          2
+        ],
+        "learning_rate": [
+          2
+        ],
+        "weight_decay": [
+          2
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1826.0
+        ],
+        "cat_emb_dim_0": [
+          17.0
+        ],
+        "cat_emb_dim_1": [
+          8.0
+        ],
+        "cat_emb_dim_2": [
+          3.0
+        ],
+        "cat_emb_dim_3": [
+          15.0
+        ],
+        "cat_emb_dim_4": [
+          1.0
+        ],
+        "cat_emb_dim_5": [
+          6.0
+        ],
+        "cat_emb_dim_6": [
+          14.0
+        ],
+        "cat_emb_dim_7": [
+          2.0
+        ],
+        "dropout_p": [
+          0.48744168145157557
+        ],
+        "hidden_dim": [
+          43.0
+        ],
+        "learning_rate": [
+          0.004696709153659178
+        ],
+        "weight_decay": [
+          7.113199119344985e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:43:05.086000",
+    "refresh_time": "2025-02-17T00:44:48.898000"
+  },
+  {
+    "state": 2,
+    "tid": 3,
+    "spec": null,
+    "result": {
+      "loss": -0.5366622199733199,
+      "status": "ok",
+      "params": {
+        "batch_size": 1846.0,
+        "cat_emb_dim_0": 9.0,
+        "cat_emb_dim_1": 12.0,
+        "cat_emb_dim_2": 10.0,
+        "cat_emb_dim_3": 17.0,
+        "cat_emb_dim_4": 7.0,
+        "cat_emb_dim_5": 14.0,
+        "cat_emb_dim_6": 9.0,
+        "cat_emb_dim_7": 10.0,
+        "dropout_p": 0.12489603414523082,
+        "hidden_dim": 60.0,
+        "learning_rate": 0.00019587808022993174,
+        "weight_decay": 3.0114890825263812e-05
+      }
+    },
+    "misc": {
+      "tid": 3,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          3
+        ],
+        "cat_emb_dim_0": [
+          3
+        ],
+        "cat_emb_dim_1": [
+          3
+        ],
+        "cat_emb_dim_2": [
+          3
+        ],
+        "cat_emb_dim_3": [
+          3
+        ],
+        "cat_emb_dim_4": [
+          3
+        ],
+        "cat_emb_dim_5": [
+          3
+        ],
+        "cat_emb_dim_6": [
+          3
+        ],
+        "cat_emb_dim_7": [
+          3
+        ],
+        "dropout_p": [
+          3
+        ],
+        "hidden_dim": [
+          3
+        ],
+        "learning_rate": [
+          3
+        ],
+        "weight_decay": [
+          3
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1846.0
+        ],
+        "cat_emb_dim_0": [
+          9.0
+        ],
+        "cat_emb_dim_1": [
+          12.0
+        ],
+        "cat_emb_dim_2": [
+          10.0
+        ],
+        "cat_emb_dim_3": [
+          17.0
+        ],
+        "cat_emb_dim_4": [
+          7.0
+        ],
+        "cat_emb_dim_5": [
+          14.0
+        ],
+        "cat_emb_dim_6": [
+          9.0
+        ],
+        "cat_emb_dim_7": [
+          10.0
+        ],
+        "dropout_p": [
+          0.12489603414523082
+        ],
+        "hidden_dim": [
+          60.0
+        ],
+        "learning_rate": [
+          0.00019587808022993174
+        ],
+        "weight_decay": [
+          3.0114890825263812e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:44:48.904000",
+    "refresh_time": "2025-02-17T00:47:14.209000"
+  },
+  {
+    "state": 2,
+    "tid": 4,
+    "spec": null,
+    "result": {
+      "loss": -0.5850238434763942,
+      "status": "ok",
+      "params": {
+        "batch_size": 482.0,
+        "cat_emb_dim_0": 13.0,
+        "cat_emb_dim_1": 18.0,
+        "cat_emb_dim_2": 19.0,
+        "cat_emb_dim_3": 11.0,
+        "cat_emb_dim_4": 15.0,
+        "cat_emb_dim_5": 10.0,
+        "cat_emb_dim_6": 13.0,
+        "cat_emb_dim_7": 9.0,
+        "dropout_p": 0.4396857581794673,
+        "hidden_dim": 48.0,
+        "learning_rate": 0.000694805740945389,
+        "weight_decay": 4.045278616369393e-05
+      }
+    },
+    "misc": {
+      "tid": 4,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          4
+        ],
+        "cat_emb_dim_0": [
+          4
+        ],
+        "cat_emb_dim_1": [
+          4
+        ],
+        "cat_emb_dim_2": [
+          4
+        ],
+        "cat_emb_dim_3": [
+          4
+        ],
+        "cat_emb_dim_4": [
+          4
+        ],
+        "cat_emb_dim_5": [
+          4
+        ],
+        "cat_emb_dim_6": [
+          4
+        ],
+        "cat_emb_dim_7": [
+          4
+        ],
+        "dropout_p": [
+          4
+        ],
+        "hidden_dim": [
+          4
+        ],
+        "learning_rate": [
+          4
+        ],
+        "weight_decay": [
+          4
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          482.0
+        ],
+        "cat_emb_dim_0": [
+          13.0
+        ],
+        "cat_emb_dim_1": [
+          18.0
+        ],
+        "cat_emb_dim_2": [
+          19.0
+        ],
+        "cat_emb_dim_3": [
+          11.0
+        ],
+        "cat_emb_dim_4": [
+          15.0
+        ],
+        "cat_emb_dim_5": [
+          10.0
+        ],
+        "cat_emb_dim_6": [
+          13.0
+        ],
+        "cat_emb_dim_7": [
+          9.0
+        ],
+        "dropout_p": [
+          0.4396857581794673
+        ],
+        "hidden_dim": [
+          48.0
+        ],
+        "learning_rate": [
+          0.000694805740945389
+        ],
+        "weight_decay": [
+          4.045278616369393e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:47:14.217000",
+    "refresh_time": "2025-02-17T00:54:20.996000"
+  },
+  {
+    "state": 2,
+    "tid": 5,
+    "spec": null,
+    "result": {
+      "loss": -0.5808914853489121,
+      "status": "ok",
+      "params": {
+        "batch_size": 1707.0,
+        "cat_emb_dim_0": 2.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 18.0,
+        "cat_emb_dim_3": 17.0,
+        "cat_emb_dim_4": 2.0,
+        "cat_emb_dim_5": 4.0,
+        "cat_emb_dim_6": 9.0,
+        "cat_emb_dim_7": 14.0,
+        "dropout_p": 0.08461637010786424,
+        "hidden_dim": 36.0,
+        "learning_rate": 0.004692398373284561,
+        "weight_decay": 0.0002695694842925182
+      }
+    },
+    "misc": {
+      "tid": 5,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          5
+        ],
+        "cat_emb_dim_0": [
+          5
+        ],
+        "cat_emb_dim_1": [
+          5
+        ],
+        "cat_emb_dim_2": [
+          5
+        ],
+        "cat_emb_dim_3": [
+          5
+        ],
+        "cat_emb_dim_4": [
+          5
+        ],
+        "cat_emb_dim_5": [
+          5
+        ],
+        "cat_emb_dim_6": [
+          5
+        ],
+        "cat_emb_dim_7": [
+          5
+        ],
+        "dropout_p": [
+          5
+        ],
+        "hidden_dim": [
+          5
+        ],
+        "learning_rate": [
+          5
+        ],
+        "weight_decay": [
+          5
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1707.0
+        ],
+        "cat_emb_dim_0": [
+          2.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          18.0
+        ],
+        "cat_emb_dim_3": [
+          17.0
+        ],
+        "cat_emb_dim_4": [
+          2.0
+        ],
+        "cat_emb_dim_5": [
+          4.0
+        ],
+        "cat_emb_dim_6": [
+          9.0
+        ],
+        "cat_emb_dim_7": [
+          14.0
+        ],
+        "dropout_p": [
+          0.08461637010786424
+        ],
+        "hidden_dim": [
+          36.0
+        ],
+        "learning_rate": [
+          0.004692398373284561
+        ],
+        "weight_decay": [
+          0.0002695694842925182
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:54:21.002000",
+    "refresh_time": "2025-02-17T00:57:30.379000"
+  },
+  {
+    "state": 2,
+    "tid": 6,
+    "spec": null,
+    "result": {
+      "loss": -0.7156569606084303,
+      "status": "ok",
+      "params": {
+        "batch_size": 1953.0,
+        "cat_emb_dim_0": 15.0,
+        "cat_emb_dim_1": 8.0,
+        "cat_emb_dim_2": 13.0,
+        "cat_emb_dim_3": 9.0,
+        "cat_emb_dim_4": 9.0,
+        "cat_emb_dim_5": 10.0,
+        "cat_emb_dim_6": 4.0,
+        "cat_emb_dim_7": 7.0,
+        "dropout_p": 0.1932453218949796,
+        "hidden_dim": 33.0,
+        "learning_rate": 0.002913280274157532,
+        "weight_decay": 3.1936038385293426e-06
+      }
+    },
+    "misc": {
+      "tid": 6,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          6
+        ],
+        "cat_emb_dim_0": [
+          6
+        ],
+        "cat_emb_dim_1": [
+          6
+        ],
+        "cat_emb_dim_2": [
+          6
+        ],
+        "cat_emb_dim_3": [
+          6
+        ],
+        "cat_emb_dim_4": [
+          6
+        ],
+        "cat_emb_dim_5": [
+          6
+        ],
+        "cat_emb_dim_6": [
+          6
+        ],
+        "cat_emb_dim_7": [
+          6
+        ],
+        "dropout_p": [
+          6
+        ],
+        "hidden_dim": [
+          6
+        ],
+        "learning_rate": [
+          6
+        ],
+        "weight_decay": [
+          6
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1953.0
+        ],
+        "cat_emb_dim_0": [
+          15.0
+        ],
+        "cat_emb_dim_1": [
+          8.0
+        ],
+        "cat_emb_dim_2": [
+          13.0
+        ],
+        "cat_emb_dim_3": [
+          9.0
+        ],
+        "cat_emb_dim_4": [
+          9.0
+        ],
+        "cat_emb_dim_5": [
+          10.0
+        ],
+        "cat_emb_dim_6": [
+          4.0
+        ],
+        "cat_emb_dim_7": [
+          7.0
+        ],
+        "dropout_p": [
+          0.1932453218949796
+        ],
+        "hidden_dim": [
+          33.0
+        ],
+        "learning_rate": [
+          0.002913280274157532
+        ],
+        "weight_decay": [
+          3.1936038385293426e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T00:57:30.385000",
+    "refresh_time": "2025-02-17T01:00:08.379000"
+  },
+  {
+    "state": 2,
+    "tid": 7,
+    "spec": null,
+    "result": {
+      "loss": -0.5983639235168744,
+      "status": "ok",
+      "params": {
+        "batch_size": 393.0,
+        "cat_emb_dim_0": 6.0,
+        "cat_emb_dim_1": 2.0,
+        "cat_emb_dim_2": 18.0,
+        "cat_emb_dim_3": 11.0,
+        "cat_emb_dim_4": 2.0,
+        "cat_emb_dim_5": 7.0,
+        "cat_emb_dim_6": 14.0,
+        "cat_emb_dim_7": 15.0,
+        "dropout_p": 0.5644963412699361,
+        "hidden_dim": 92.0,
+        "learning_rate": 0.0003715632978679651,
+        "weight_decay": 0.00030039167379438363
+      }
+    },
+    "misc": {
+      "tid": 7,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          7
+        ],
+        "cat_emb_dim_0": [
+          7
+        ],
+        "cat_emb_dim_1": [
+          7
+        ],
+        "cat_emb_dim_2": [
+          7
+        ],
+        "cat_emb_dim_3": [
+          7
+        ],
+        "cat_emb_dim_4": [
+          7
+        ],
+        "cat_emb_dim_5": [
+          7
+        ],
+        "cat_emb_dim_6": [
+          7
+        ],
+        "cat_emb_dim_7": [
+          7
+        ],
+        "dropout_p": [
+          7
+        ],
+        "hidden_dim": [
+          7
+        ],
+        "learning_rate": [
+          7
+        ],
+        "weight_decay": [
+          7
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          393.0
+        ],
+        "cat_emb_dim_0": [
+          6.0
+        ],
+        "cat_emb_dim_1": [
+          2.0
+        ],
+        "cat_emb_dim_2": [
+          18.0
+        ],
+        "cat_emb_dim_3": [
+          11.0
+        ],
+        "cat_emb_dim_4": [
+          2.0
+        ],
+        "cat_emb_dim_5": [
+          7.0
+        ],
+        "cat_emb_dim_6": [
+          14.0
+        ],
+        "cat_emb_dim_7": [
+          15.0
+        ],
+        "dropout_p": [
+          0.5644963412699361
+        ],
+        "hidden_dim": [
+          92.0
+        ],
+        "learning_rate": [
+          0.0003715632978679651
+        ],
+        "weight_decay": [
+          0.00030039167379438363
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:00:08.384000",
+    "refresh_time": "2025-02-17T01:08:48.970000"
+  },
+  {
+    "state": 2,
+    "tid": 8,
+    "spec": null,
+    "result": {
+      "loss": -0.7075149117561372,
+      "status": "ok",
+      "params": {
+        "batch_size": 1563.0,
+        "cat_emb_dim_0": 9.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 6.0,
+        "cat_emb_dim_3": 6.0,
+        "cat_emb_dim_4": 7.0,
+        "cat_emb_dim_5": 7.0,
+        "cat_emb_dim_6": 16.0,
+        "cat_emb_dim_7": 15.0,
+        "dropout_p": 0.3122966549752165,
+        "hidden_dim": 66.0,
+        "learning_rate": 0.0037784411862872916,
+        "weight_decay": 1.7485299361906392e-06
+      }
+    },
+    "misc": {
+      "tid": 8,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          8
+        ],
+        "cat_emb_dim_0": [
+          8
+        ],
+        "cat_emb_dim_1": [
+          8
+        ],
+        "cat_emb_dim_2": [
+          8
+        ],
+        "cat_emb_dim_3": [
+          8
+        ],
+        "cat_emb_dim_4": [
+          8
+        ],
+        "cat_emb_dim_5": [
+          8
+        ],
+        "cat_emb_dim_6": [
+          8
+        ],
+        "cat_emb_dim_7": [
+          8
+        ],
+        "dropout_p": [
+          8
+        ],
+        "hidden_dim": [
+          8
+        ],
+        "learning_rate": [
+          8
+        ],
+        "weight_decay": [
+          8
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1563.0
+        ],
+        "cat_emb_dim_0": [
+          9.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          6.0
+        ],
+        "cat_emb_dim_3": [
+          6.0
+        ],
+        "cat_emb_dim_4": [
+          7.0
+        ],
+        "cat_emb_dim_5": [
+          7.0
+        ],
+        "cat_emb_dim_6": [
+          16.0
+        ],
+        "cat_emb_dim_7": [
+          15.0
+        ],
+        "dropout_p": [
+          0.3122966549752165
+        ],
+        "hidden_dim": [
+          66.0
+        ],
+        "learning_rate": [
+          0.0037784411862872916
+        ],
+        "weight_decay": [
+          1.7485299361906392e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:08:48.978000",
+    "refresh_time": "2025-02-17T01:11:36.969000"
+  },
+  {
+    "state": 2,
+    "tid": 9,
+    "spec": null,
+    "result": {
+      "loss": -0.5382032292193754,
+      "status": "ok",
+      "params": {
+        "batch_size": 1249.0,
+        "cat_emb_dim_0": 14.0,
+        "cat_emb_dim_1": 16.0,
+        "cat_emb_dim_2": 4.0,
+        "cat_emb_dim_3": 10.0,
+        "cat_emb_dim_4": 12.0,
+        "cat_emb_dim_5": 17.0,
+        "cat_emb_dim_6": 3.0,
+        "cat_emb_dim_7": 7.0,
+        "dropout_p": 0.7679281862425142,
+        "hidden_dim": 69.0,
+        "learning_rate": 0.00016386481351406932,
+        "weight_decay": 0.0005577953917869857
+      }
+    },
+    "misc": {
+      "tid": 9,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          9
+        ],
+        "cat_emb_dim_0": [
+          9
+        ],
+        "cat_emb_dim_1": [
+          9
+        ],
+        "cat_emb_dim_2": [
+          9
+        ],
+        "cat_emb_dim_3": [
+          9
+        ],
+        "cat_emb_dim_4": [
+          9
+        ],
+        "cat_emb_dim_5": [
+          9
+        ],
+        "cat_emb_dim_6": [
+          9
+        ],
+        "cat_emb_dim_7": [
+          9
+        ],
+        "dropout_p": [
+          9
+        ],
+        "hidden_dim": [
+          9
+        ],
+        "learning_rate": [
+          9
+        ],
+        "weight_decay": [
+          9
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1249.0
+        ],
+        "cat_emb_dim_0": [
+          14.0
+        ],
+        "cat_emb_dim_1": [
+          16.0
+        ],
+        "cat_emb_dim_2": [
+          4.0
+        ],
+        "cat_emb_dim_3": [
+          10.0
+        ],
+        "cat_emb_dim_4": [
+          12.0
+        ],
+        "cat_emb_dim_5": [
+          17.0
+        ],
+        "cat_emb_dim_6": [
+          3.0
+        ],
+        "cat_emb_dim_7": [
+          7.0
+        ],
+        "dropout_p": [
+          0.7679281862425142
+        ],
+        "hidden_dim": [
+          69.0
+        ],
+        "learning_rate": [
+          0.00016386481351406932
+        ],
+        "weight_decay": [
+          0.0005577953917869857
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:11:36.976000",
+    "refresh_time": "2025-02-17T01:14:15.951000"
+  },
+  {
+    "state": 2,
+    "tid": 10,
+    "spec": null,
+    "result": {
+      "loss": -0.5648603891623349,
+      "status": "ok",
+      "params": {
+        "batch_size": 1057.0,
+        "cat_emb_dim_0": 6.0,
+        "cat_emb_dim_1": 20.0,
+        "cat_emb_dim_2": 16.0,
+        "cat_emb_dim_3": 16.0,
+        "cat_emb_dim_4": 12.0,
+        "cat_emb_dim_5": 11.0,
+        "cat_emb_dim_6": 13.0,
+        "cat_emb_dim_7": 19.0,
+        "dropout_p": 0.291999881459426,
+        "hidden_dim": 43.0,
+        "learning_rate": 0.00025234904034529776,
+        "weight_decay": 7.195507593022984e-06
+      }
+    },
+    "misc": {
+      "tid": 10,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          10
+        ],
+        "cat_emb_dim_0": [
+          10
+        ],
+        "cat_emb_dim_1": [
+          10
+        ],
+        "cat_emb_dim_2": [
+          10
+        ],
+        "cat_emb_dim_3": [
+          10
+        ],
+        "cat_emb_dim_4": [
+          10
+        ],
+        "cat_emb_dim_5": [
+          10
+        ],
+        "cat_emb_dim_6": [
+          10
+        ],
+        "cat_emb_dim_7": [
+          10
+        ],
+        "dropout_p": [
+          10
+        ],
+        "hidden_dim": [
+          10
+        ],
+        "learning_rate": [
+          10
+        ],
+        "weight_decay": [
+          10
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1057.0
+        ],
+        "cat_emb_dim_0": [
+          6.0
+        ],
+        "cat_emb_dim_1": [
+          20.0
+        ],
+        "cat_emb_dim_2": [
+          16.0
+        ],
+        "cat_emb_dim_3": [
+          16.0
+        ],
+        "cat_emb_dim_4": [
+          12.0
+        ],
+        "cat_emb_dim_5": [
+          11.0
+        ],
+        "cat_emb_dim_6": [
+          13.0
+        ],
+        "cat_emb_dim_7": [
+          19.0
+        ],
+        "dropout_p": [
+          0.291999881459426
+        ],
+        "hidden_dim": [
+          43.0
+        ],
+        "learning_rate": [
+          0.00025234904034529776
+        ],
+        "weight_decay": [
+          7.195507593022984e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:14:15.959000",
+    "refresh_time": "2025-02-17T01:18:56.338000"
+  },
+  {
+    "state": 2,
+    "tid": 11,
+    "spec": null,
+    "result": {
+      "loss": -0.5745357805480166,
+      "status": "ok",
+      "params": {
+        "batch_size": 951.0,
+        "cat_emb_dim_0": 3.0,
+        "cat_emb_dim_1": 2.0,
+        "cat_emb_dim_2": 9.0,
+        "cat_emb_dim_3": 15.0,
+        "cat_emb_dim_4": 2.0,
+        "cat_emb_dim_5": 15.0,
+        "cat_emb_dim_6": 14.0,
+        "cat_emb_dim_7": 13.0,
+        "dropout_p": 0.8356227131755388,
+        "hidden_dim": 89.0,
+        "learning_rate": 0.00037326605492344993,
+        "weight_decay": 8.770471769078217e-06
+      }
+    },
+    "misc": {
+      "tid": 11,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          11
+        ],
+        "cat_emb_dim_0": [
+          11
+        ],
+        "cat_emb_dim_1": [
+          11
+        ],
+        "cat_emb_dim_2": [
+          11
+        ],
+        "cat_emb_dim_3": [
+          11
+        ],
+        "cat_emb_dim_4": [
+          11
+        ],
+        "cat_emb_dim_5": [
+          11
+        ],
+        "cat_emb_dim_6": [
+          11
+        ],
+        "cat_emb_dim_7": [
+          11
+        ],
+        "dropout_p": [
+          11
+        ],
+        "hidden_dim": [
+          11
+        ],
+        "learning_rate": [
+          11
+        ],
+        "weight_decay": [
+          11
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          951.0
+        ],
+        "cat_emb_dim_0": [
+          3.0
+        ],
+        "cat_emb_dim_1": [
+          2.0
+        ],
+        "cat_emb_dim_2": [
+          9.0
+        ],
+        "cat_emb_dim_3": [
+          15.0
+        ],
+        "cat_emb_dim_4": [
+          2.0
+        ],
+        "cat_emb_dim_5": [
+          15.0
+        ],
+        "cat_emb_dim_6": [
+          14.0
+        ],
+        "cat_emb_dim_7": [
+          13.0
+        ],
+        "dropout_p": [
+          0.8356227131755388
+        ],
+        "hidden_dim": [
+          89.0
+        ],
+        "learning_rate": [
+          0.00037326605492344993
+        ],
+        "weight_decay": [
+          8.770471769078217e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:18:56.347000",
+    "refresh_time": "2025-02-17T01:22:55.345000"
+  },
+  {
+    "state": 2,
+    "tid": 12,
+    "spec": null,
+    "result": {
+      "loss": -0.6027646165876995,
+      "status": "ok",
+      "params": {
+        "batch_size": 296.0,
+        "cat_emb_dim_0": 19.0,
+        "cat_emb_dim_1": 10.0,
+        "cat_emb_dim_2": 9.0,
+        "cat_emb_dim_3": 13.0,
+        "cat_emb_dim_4": 19.0,
+        "cat_emb_dim_5": 11.0,
+        "cat_emb_dim_6": 5.0,
+        "cat_emb_dim_7": 13.0,
+        "dropout_p": 0.7807320927656793,
+        "hidden_dim": 88.0,
+        "learning_rate": 0.00027101985748568717,
+        "weight_decay": 9.836923490430807e-05
+      }
+    },
+    "misc": {
+      "tid": 12,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          12
+        ],
+        "cat_emb_dim_0": [
+          12
+        ],
+        "cat_emb_dim_1": [
+          12
+        ],
+        "cat_emb_dim_2": [
+          12
+        ],
+        "cat_emb_dim_3": [
+          12
+        ],
+        "cat_emb_dim_4": [
+          12
+        ],
+        "cat_emb_dim_5": [
+          12
+        ],
+        "cat_emb_dim_6": [
+          12
+        ],
+        "cat_emb_dim_7": [
+          12
+        ],
+        "dropout_p": [
+          12
+        ],
+        "hidden_dim": [
+          12
+        ],
+        "learning_rate": [
+          12
+        ],
+        "weight_decay": [
+          12
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          296.0
+        ],
+        "cat_emb_dim_0": [
+          19.0
+        ],
+        "cat_emb_dim_1": [
+          10.0
+        ],
+        "cat_emb_dim_2": [
+          9.0
+        ],
+        "cat_emb_dim_3": [
+          13.0
+        ],
+        "cat_emb_dim_4": [
+          19.0
+        ],
+        "cat_emb_dim_5": [
+          11.0
+        ],
+        "cat_emb_dim_6": [
+          5.0
+        ],
+        "cat_emb_dim_7": [
+          13.0
+        ],
+        "dropout_p": [
+          0.7807320927656793
+        ],
+        "hidden_dim": [
+          88.0
+        ],
+        "learning_rate": [
+          0.00027101985748568717
+        ],
+        "weight_decay": [
+          9.836923490430807e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:22:55.353000",
+    "refresh_time": "2025-02-17T01:30:27.460000"
+  },
+  {
+    "state": 2,
+    "tid": 13,
+    "spec": null,
+    "result": {
+      "loss": -0.5209531257187543,
+      "status": "ok",
+      "params": {
+        "batch_size": 1519.0,
+        "cat_emb_dim_0": 1.0,
+        "cat_emb_dim_1": 10.0,
+        "cat_emb_dim_2": 9.0,
+        "cat_emb_dim_3": 9.0,
+        "cat_emb_dim_4": 6.0,
+        "cat_emb_dim_5": 19.0,
+        "cat_emb_dim_6": 14.0,
+        "cat_emb_dim_7": 1.0,
+        "dropout_p": 0.6024038928653087,
+        "hidden_dim": 12.0,
+        "learning_rate": 0.004111985587720617,
+        "weight_decay": 0.0008113292076756705
+      }
+    },
+    "misc": {
+      "tid": 13,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          13
+        ],
+        "cat_emb_dim_0": [
+          13
+        ],
+        "cat_emb_dim_1": [
+          13
+        ],
+        "cat_emb_dim_2": [
+          13
+        ],
+        "cat_emb_dim_3": [
+          13
+        ],
+        "cat_emb_dim_4": [
+          13
+        ],
+        "cat_emb_dim_5": [
+          13
+        ],
+        "cat_emb_dim_6": [
+          13
+        ],
+        "cat_emb_dim_7": [
+          13
+        ],
+        "dropout_p": [
+          13
+        ],
+        "hidden_dim": [
+          13
+        ],
+        "learning_rate": [
+          13
+        ],
+        "weight_decay": [
+          13
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1519.0
+        ],
+        "cat_emb_dim_0": [
+          1.0
+        ],
+        "cat_emb_dim_1": [
+          10.0
+        ],
+        "cat_emb_dim_2": [
+          9.0
+        ],
+        "cat_emb_dim_3": [
+          9.0
+        ],
+        "cat_emb_dim_4": [
+          6.0
+        ],
+        "cat_emb_dim_5": [
+          19.0
+        ],
+        "cat_emb_dim_6": [
+          14.0
+        ],
+        "cat_emb_dim_7": [
+          1.0
+        ],
+        "dropout_p": [
+          0.6024038928653087
+        ],
+        "hidden_dim": [
+          12.0
+        ],
+        "learning_rate": [
+          0.004111985587720617
+        ],
+        "weight_decay": [
+          0.0008113292076756705
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:30:27.469000",
+    "refresh_time": "2025-02-17T01:33:35.449000"
+  },
+  {
+    "state": 2,
+    "tid": 14,
+    "spec": null,
+    "result": {
+      "loss": -0.688417130502783,
+      "status": "ok",
+      "params": {
+        "batch_size": 832.0,
+        "cat_emb_dim_0": 4.0,
+        "cat_emb_dim_1": 13.0,
+        "cat_emb_dim_2": 14.0,
+        "cat_emb_dim_3": 4.0,
+        "cat_emb_dim_4": 6.0,
+        "cat_emb_dim_5": 12.0,
+        "cat_emb_dim_6": 12.0,
+        "cat_emb_dim_7": 6.0,
+        "dropout_p": 0.2757408270003264,
+        "hidden_dim": 100.0,
+        "learning_rate": 0.007907750186126829,
+        "weight_decay": 8.300323764463514e-05
+      }
+    },
+    "misc": {
+      "tid": 14,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          14
+        ],
+        "cat_emb_dim_0": [
+          14
+        ],
+        "cat_emb_dim_1": [
+          14
+        ],
+        "cat_emb_dim_2": [
+          14
+        ],
+        "cat_emb_dim_3": [
+          14
+        ],
+        "cat_emb_dim_4": [
+          14
+        ],
+        "cat_emb_dim_5": [
+          14
+        ],
+        "cat_emb_dim_6": [
+          14
+        ],
+        "cat_emb_dim_7": [
+          14
+        ],
+        "dropout_p": [
+          14
+        ],
+        "hidden_dim": [
+          14
+        ],
+        "learning_rate": [
+          14
+        ],
+        "weight_decay": [
+          14
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          832.0
+        ],
+        "cat_emb_dim_0": [
+          4.0
+        ],
+        "cat_emb_dim_1": [
+          13.0
+        ],
+        "cat_emb_dim_2": [
+          14.0
+        ],
+        "cat_emb_dim_3": [
+          4.0
+        ],
+        "cat_emb_dim_4": [
+          6.0
+        ],
+        "cat_emb_dim_5": [
+          12.0
+        ],
+        "cat_emb_dim_6": [
+          12.0
+        ],
+        "cat_emb_dim_7": [
+          6.0
+        ],
+        "dropout_p": [
+          0.2757408270003264
+        ],
+        "hidden_dim": [
+          100.0
+        ],
+        "learning_rate": [
+          0.007907750186126829
+        ],
+        "weight_decay": [
+          8.300323764463514e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:33:35.454000",
+    "refresh_time": "2025-02-17T01:38:41.161000"
+  },
+  {
+    "state": 2,
+    "tid": 15,
+    "spec": null,
+    "result": {
+      "loss": -0.5652820583590168,
+      "status": "ok",
+      "params": {
+        "batch_size": 1817.0,
+        "cat_emb_dim_0": 6.0,
+        "cat_emb_dim_1": 10.0,
+        "cat_emb_dim_2": 19.0,
+        "cat_emb_dim_3": 13.0,
+        "cat_emb_dim_4": 5.0,
+        "cat_emb_dim_5": 7.0,
+        "cat_emb_dim_6": 13.0,
+        "cat_emb_dim_7": 5.0,
+        "dropout_p": 0.18823800370630225,
+        "hidden_dim": 56.0,
+        "learning_rate": 0.0002624364077988399,
+        "weight_decay": 1.0820700107962364e-06
+      }
+    },
+    "misc": {
+      "tid": 15,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          15
+        ],
+        "cat_emb_dim_0": [
+          15
+        ],
+        "cat_emb_dim_1": [
+          15
+        ],
+        "cat_emb_dim_2": [
+          15
+        ],
+        "cat_emb_dim_3": [
+          15
+        ],
+        "cat_emb_dim_4": [
+          15
+        ],
+        "cat_emb_dim_5": [
+          15
+        ],
+        "cat_emb_dim_6": [
+          15
+        ],
+        "cat_emb_dim_7": [
+          15
+        ],
+        "dropout_p": [
+          15
+        ],
+        "hidden_dim": [
+          15
+        ],
+        "learning_rate": [
+          15
+        ],
+        "weight_decay": [
+          15
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1817.0
+        ],
+        "cat_emb_dim_0": [
+          6.0
+        ],
+        "cat_emb_dim_1": [
+          10.0
+        ],
+        "cat_emb_dim_2": [
+          19.0
+        ],
+        "cat_emb_dim_3": [
+          13.0
+        ],
+        "cat_emb_dim_4": [
+          5.0
+        ],
+        "cat_emb_dim_5": [
+          7.0
+        ],
+        "cat_emb_dim_6": [
+          13.0
+        ],
+        "cat_emb_dim_7": [
+          5.0
+        ],
+        "dropout_p": [
+          0.18823800370630225
+        ],
+        "hidden_dim": [
+          56.0
+        ],
+        "learning_rate": [
+          0.0002624364077988399
+        ],
+        "weight_decay": [
+          1.0820700107962364e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:38:41.168000",
+    "refresh_time": "2025-02-17T01:42:54.269000"
+  },
+  {
+    "state": 2,
+    "tid": 16,
+    "spec": null,
+    "result": {
+      "loss": -0.6792630755784534,
+      "status": "ok",
+      "params": {
+        "batch_size": 974.0,
+        "cat_emb_dim_0": 9.0,
+        "cat_emb_dim_1": 13.0,
+        "cat_emb_dim_2": 10.0,
+        "cat_emb_dim_3": 12.0,
+        "cat_emb_dim_4": 13.0,
+        "cat_emb_dim_5": 6.0,
+        "cat_emb_dim_6": 19.0,
+        "cat_emb_dim_7": 17.0,
+        "dropout_p": 0.04300812806991196,
+        "hidden_dim": 53.0,
+        "learning_rate": 0.005553975398601181,
+        "weight_decay": 6.950076619782979e-05
+      }
+    },
+    "misc": {
+      "tid": 16,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          16
+        ],
+        "cat_emb_dim_0": [
+          16
+        ],
+        "cat_emb_dim_1": [
+          16
+        ],
+        "cat_emb_dim_2": [
+          16
+        ],
+        "cat_emb_dim_3": [
+          16
+        ],
+        "cat_emb_dim_4": [
+          16
+        ],
+        "cat_emb_dim_5": [
+          16
+        ],
+        "cat_emb_dim_6": [
+          16
+        ],
+        "cat_emb_dim_7": [
+          16
+        ],
+        "dropout_p": [
+          16
+        ],
+        "hidden_dim": [
+          16
+        ],
+        "learning_rate": [
+          16
+        ],
+        "weight_decay": [
+          16
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          974.0
+        ],
+        "cat_emb_dim_0": [
+          9.0
+        ],
+        "cat_emb_dim_1": [
+          13.0
+        ],
+        "cat_emb_dim_2": [
+          10.0
+        ],
+        "cat_emb_dim_3": [
+          12.0
+        ],
+        "cat_emb_dim_4": [
+          13.0
+        ],
+        "cat_emb_dim_5": [
+          6.0
+        ],
+        "cat_emb_dim_6": [
+          19.0
+        ],
+        "cat_emb_dim_7": [
+          17.0
+        ],
+        "dropout_p": [
+          0.04300812806991196
+        ],
+        "hidden_dim": [
+          53.0
+        ],
+        "learning_rate": [
+          0.005553975398601181
+        ],
+        "weight_decay": [
+          6.950076619782979e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:42:54.277000",
+    "refresh_time": "2025-02-17T01:46:48.042000"
+  },
+  {
+    "state": 2,
+    "tid": 17,
+    "spec": null,
+    "result": {
+      "loss": -0.5966542465921462,
+      "status": "ok",
+      "params": {
+        "batch_size": 433.0,
+        "cat_emb_dim_0": 14.0,
+        "cat_emb_dim_1": 14.0,
+        "cat_emb_dim_2": 5.0,
+        "cat_emb_dim_3": 13.0,
+        "cat_emb_dim_4": 5.0,
+        "cat_emb_dim_5": 4.0,
+        "cat_emb_dim_6": 13.0,
+        "cat_emb_dim_7": 3.0,
+        "dropout_p": 0.543408850542082,
+        "hidden_dim": 63.0,
+        "learning_rate": 0.0031350202347368854,
+        "weight_decay": 1.0599991292014075e-05
+      }
+    },
+    "misc": {
+      "tid": 17,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          17
+        ],
+        "cat_emb_dim_0": [
+          17
+        ],
+        "cat_emb_dim_1": [
+          17
+        ],
+        "cat_emb_dim_2": [
+          17
+        ],
+        "cat_emb_dim_3": [
+          17
+        ],
+        "cat_emb_dim_4": [
+          17
+        ],
+        "cat_emb_dim_5": [
+          17
+        ],
+        "cat_emb_dim_6": [
+          17
+        ],
+        "cat_emb_dim_7": [
+          17
+        ],
+        "dropout_p": [
+          17
+        ],
+        "hidden_dim": [
+          17
+        ],
+        "learning_rate": [
+          17
+        ],
+        "weight_decay": [
+          17
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          433.0
+        ],
+        "cat_emb_dim_0": [
+          14.0
+        ],
+        "cat_emb_dim_1": [
+          14.0
+        ],
+        "cat_emb_dim_2": [
+          5.0
+        ],
+        "cat_emb_dim_3": [
+          13.0
+        ],
+        "cat_emb_dim_4": [
+          5.0
+        ],
+        "cat_emb_dim_5": [
+          4.0
+        ],
+        "cat_emb_dim_6": [
+          13.0
+        ],
+        "cat_emb_dim_7": [
+          3.0
+        ],
+        "dropout_p": [
+          0.543408850542082
+        ],
+        "hidden_dim": [
+          63.0
+        ],
+        "learning_rate": [
+          0.0031350202347368854
+        ],
+        "weight_decay": [
+          1.0599991292014075e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:46:48.050000",
+    "refresh_time": "2025-02-17T01:50:45.141000"
+  },
+  {
+    "state": 2,
+    "tid": 18,
+    "spec": null,
+    "result": {
+      "loss": -0.5709094254565528,
+      "status": "ok",
+      "params": {
+        "batch_size": 1800.0,
+        "cat_emb_dim_0": 14.0,
+        "cat_emb_dim_1": 2.0,
+        "cat_emb_dim_2": 15.0,
+        "cat_emb_dim_3": 4.0,
+        "cat_emb_dim_4": 17.0,
+        "cat_emb_dim_5": 14.0,
+        "cat_emb_dim_6": 11.0,
+        "cat_emb_dim_7": 19.0,
+        "dropout_p": 0.5450329220594391,
+        "hidden_dim": 47.0,
+        "learning_rate": 0.0009447858994013237,
+        "weight_decay": 5.03155324389453e-06
+      }
+    },
+    "misc": {
+      "tid": 18,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          18
+        ],
+        "cat_emb_dim_0": [
+          18
+        ],
+        "cat_emb_dim_1": [
+          18
+        ],
+        "cat_emb_dim_2": [
+          18
+        ],
+        "cat_emb_dim_3": [
+          18
+        ],
+        "cat_emb_dim_4": [
+          18
+        ],
+        "cat_emb_dim_5": [
+          18
+        ],
+        "cat_emb_dim_6": [
+          18
+        ],
+        "cat_emb_dim_7": [
+          18
+        ],
+        "dropout_p": [
+          18
+        ],
+        "hidden_dim": [
+          18
+        ],
+        "learning_rate": [
+          18
+        ],
+        "weight_decay": [
+          18
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1800.0
+        ],
+        "cat_emb_dim_0": [
+          14.0
+        ],
+        "cat_emb_dim_1": [
+          2.0
+        ],
+        "cat_emb_dim_2": [
+          15.0
+        ],
+        "cat_emb_dim_3": [
+          4.0
+        ],
+        "cat_emb_dim_4": [
+          17.0
+        ],
+        "cat_emb_dim_5": [
+          14.0
+        ],
+        "cat_emb_dim_6": [
+          11.0
+        ],
+        "cat_emb_dim_7": [
+          19.0
+        ],
+        "dropout_p": [
+          0.5450329220594391
+        ],
+        "hidden_dim": [
+          47.0
+        ],
+        "learning_rate": [
+          0.0009447858994013237
+        ],
+        "weight_decay": [
+          5.03155324389453e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:50:45.147000",
+    "refresh_time": "2025-02-17T01:53:36.180000"
+  },
+  {
+    "state": 2,
+    "tid": 19,
+    "spec": null,
+    "result": {
+      "loss": -0.5257601545609274,
+      "status": "ok",
+      "params": {
+        "batch_size": 1126.0,
+        "cat_emb_dim_0": 12.0,
+        "cat_emb_dim_1": 9.0,
+        "cat_emb_dim_2": 20.0,
+        "cat_emb_dim_3": 19.0,
+        "cat_emb_dim_4": 16.0,
+        "cat_emb_dim_5": 20.0,
+        "cat_emb_dim_6": 15.0,
+        "cat_emb_dim_7": 11.0,
+        "dropout_p": 0.8434621951290154,
+        "hidden_dim": 127.0,
+        "learning_rate": 0.00014470346115300322,
+        "weight_decay": 0.0006222694252894228
+      }
+    },
+    "misc": {
+      "tid": 19,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          19
+        ],
+        "cat_emb_dim_0": [
+          19
+        ],
+        "cat_emb_dim_1": [
+          19
+        ],
+        "cat_emb_dim_2": [
+          19
+        ],
+        "cat_emb_dim_3": [
+          19
+        ],
+        "cat_emb_dim_4": [
+          19
+        ],
+        "cat_emb_dim_5": [
+          19
+        ],
+        "cat_emb_dim_6": [
+          19
+        ],
+        "cat_emb_dim_7": [
+          19
+        ],
+        "dropout_p": [
+          19
+        ],
+        "hidden_dim": [
+          19
+        ],
+        "learning_rate": [
+          19
+        ],
+        "weight_decay": [
+          19
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1126.0
+        ],
+        "cat_emb_dim_0": [
+          12.0
+        ],
+        "cat_emb_dim_1": [
+          9.0
+        ],
+        "cat_emb_dim_2": [
+          20.0
+        ],
+        "cat_emb_dim_3": [
+          19.0
+        ],
+        "cat_emb_dim_4": [
+          16.0
+        ],
+        "cat_emb_dim_5": [
+          20.0
+        ],
+        "cat_emb_dim_6": [
+          15.0
+        ],
+        "cat_emb_dim_7": [
+          11.0
+        ],
+        "dropout_p": [
+          0.8434621951290154
+        ],
+        "hidden_dim": [
+          127.0
+        ],
+        "learning_rate": [
+          0.00014470346115300322
+        ],
+        "weight_decay": [
+          0.0006222694252894228
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:53:36.186000",
+    "refresh_time": "2025-02-17T01:57:57.142000"
+  },
+  {
+    "state": 2,
+    "tid": 20,
+    "spec": null,
+    "result": {
+      "loss": -0.7354217458638085,
+      "status": "ok",
+      "params": {
+        "batch_size": 1479.0,
+        "cat_emb_dim_0": 10.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 6.0,
+        "cat_emb_dim_3": 8.0,
+        "cat_emb_dim_4": 9.0,
+        "cat_emb_dim_5": 2.0,
+        "cat_emb_dim_6": 6.0,
+        "cat_emb_dim_7": 8.0,
+        "dropout_p": 0.3757636133377259,
+        "hidden_dim": 25.0,
+        "learning_rate": 0.0020986773983276454,
+        "weight_decay": 1.0060248893757618e-06
+      }
+    },
+    "misc": {
+      "tid": 20,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          20
+        ],
+        "cat_emb_dim_0": [
+          20
+        ],
+        "cat_emb_dim_1": [
+          20
+        ],
+        "cat_emb_dim_2": [
+          20
+        ],
+        "cat_emb_dim_3": [
+          20
+        ],
+        "cat_emb_dim_4": [
+          20
+        ],
+        "cat_emb_dim_5": [
+          20
+        ],
+        "cat_emb_dim_6": [
+          20
+        ],
+        "cat_emb_dim_7": [
+          20
+        ],
+        "dropout_p": [
+          20
+        ],
+        "hidden_dim": [
+          20
+        ],
+        "learning_rate": [
+          20
+        ],
+        "weight_decay": [
+          20
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1479.0
+        ],
+        "cat_emb_dim_0": [
+          10.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          6.0
+        ],
+        "cat_emb_dim_3": [
+          8.0
+        ],
+        "cat_emb_dim_4": [
+          9.0
+        ],
+        "cat_emb_dim_5": [
+          2.0
+        ],
+        "cat_emb_dim_6": [
+          6.0
+        ],
+        "cat_emb_dim_7": [
+          8.0
+        ],
+        "dropout_p": [
+          0.3757636133377259
+        ],
+        "hidden_dim": [
+          25.0
+        ],
+        "learning_rate": [
+          0.0020986773983276454
+        ],
+        "weight_decay": [
+          1.0060248893757618e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T01:57:57.165000",
+    "refresh_time": "2025-02-17T02:00:04.853000"
+  },
+  {
+    "state": 2,
+    "tid": 21,
+    "spec": null,
+    "result": {
+      "loss": -0.6612539675238052,
+      "status": "ok",
+      "params": {
+        "batch_size": 2013.0,
+        "cat_emb_dim_0": 16.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 7.0,
+        "cat_emb_dim_3": 7.0,
+        "cat_emb_dim_4": 9.0,
+        "cat_emb_dim_5": 2.0,
+        "cat_emb_dim_6": 6.0,
+        "cat_emb_dim_7": 8.0,
+        "dropout_p": 0.38930932296760307,
+        "hidden_dim": 6.0,
+        "learning_rate": 0.00212841045452463,
+        "weight_decay": 2.876755727838261e-06
+      }
+    },
+    "misc": {
+      "tid": 21,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          21
+        ],
+        "cat_emb_dim_0": [
+          21
+        ],
+        "cat_emb_dim_1": [
+          21
+        ],
+        "cat_emb_dim_2": [
+          21
+        ],
+        "cat_emb_dim_3": [
+          21
+        ],
+        "cat_emb_dim_4": [
+          21
+        ],
+        "cat_emb_dim_5": [
+          21
+        ],
+        "cat_emb_dim_6": [
+          21
+        ],
+        "cat_emb_dim_7": [
+          21
+        ],
+        "dropout_p": [
+          21
+        ],
+        "hidden_dim": [
+          21
+        ],
+        "learning_rate": [
+          21
+        ],
+        "weight_decay": [
+          21
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          2013.0
+        ],
+        "cat_emb_dim_0": [
+          16.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          7.0
+        ],
+        "cat_emb_dim_3": [
+          7.0
+        ],
+        "cat_emb_dim_4": [
+          9.0
+        ],
+        "cat_emb_dim_5": [
+          2.0
+        ],
+        "cat_emb_dim_6": [
+          6.0
+        ],
+        "cat_emb_dim_7": [
+          8.0
+        ],
+        "dropout_p": [
+          0.38930932296760307
+        ],
+        "hidden_dim": [
+          6.0
+        ],
+        "learning_rate": [
+          0.00212841045452463
+        ],
+        "weight_decay": [
+          2.876755727838261e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:00:04.879000",
+    "refresh_time": "2025-02-17T02:02:09.956000"
+  },
+  {
+    "state": 2,
+    "tid": 22,
+    "spec": null,
+    "result": {
+      "loss": -0.7013662081972492,
+      "status": "ok",
+      "params": {
+        "batch_size": 2047.0,
+        "cat_emb_dim_0": 19.0,
+        "cat_emb_dim_1": 7.0,
+        "cat_emb_dim_2": 13.0,
+        "cat_emb_dim_3": 2.0,
+        "cat_emb_dim_4": 10.0,
+        "cat_emb_dim_5": 3.0,
+        "cat_emb_dim_6": 1.0,
+        "cat_emb_dim_7": 4.0,
+        "dropout_p": 0.2133352625473996,
+        "hidden_dim": 28.0,
+        "learning_rate": 0.001794020730261857,
+        "weight_decay": 1.2424962957172507e-06
+      }
+    },
+    "misc": {
+      "tid": 22,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          22
+        ],
+        "cat_emb_dim_0": [
+          22
+        ],
+        "cat_emb_dim_1": [
+          22
+        ],
+        "cat_emb_dim_2": [
+          22
+        ],
+        "cat_emb_dim_3": [
+          22
+        ],
+        "cat_emb_dim_4": [
+          22
+        ],
+        "cat_emb_dim_5": [
+          22
+        ],
+        "cat_emb_dim_6": [
+          22
+        ],
+        "cat_emb_dim_7": [
+          22
+        ],
+        "dropout_p": [
+          22
+        ],
+        "hidden_dim": [
+          22
+        ],
+        "learning_rate": [
+          22
+        ],
+        "weight_decay": [
+          22
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          2047.0
+        ],
+        "cat_emb_dim_0": [
+          19.0
+        ],
+        "cat_emb_dim_1": [
+          7.0
+        ],
+        "cat_emb_dim_2": [
+          13.0
+        ],
+        "cat_emb_dim_3": [
+          2.0
+        ],
+        "cat_emb_dim_4": [
+          10.0
+        ],
+        "cat_emb_dim_5": [
+          3.0
+        ],
+        "cat_emb_dim_6": [
+          1.0
+        ],
+        "cat_emb_dim_7": [
+          4.0
+        ],
+        "dropout_p": [
+          0.2133352625473996
+        ],
+        "hidden_dim": [
+          28.0
+        ],
+        "learning_rate": [
+          0.001794020730261857
+        ],
+        "weight_decay": [
+          1.2424962957172507e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:02:09.985000",
+    "refresh_time": "2025-02-17T02:04:42.468000"
+  },
+  {
+    "state": 2,
+    "tid": 23,
+    "spec": null,
+    "result": {
+      "loss": -0.5892865357192143,
+      "status": "ok",
+      "params": {
+        "batch_size": 1338.0,
+        "cat_emb_dim_0": 11.0,
+        "cat_emb_dim_1": 4.0,
+        "cat_emb_dim_2": 12.0,
+        "cat_emb_dim_3": 8.0,
+        "cat_emb_dim_4": 9.0,
+        "cat_emb_dim_5": 1.0,
+        "cat_emb_dim_6": 6.0,
+        "cat_emb_dim_7": 11.0,
+        "dropout_p": 0.6644140700528249,
+        "hidden_dim": 21.0,
+        "learning_rate": 0.009599754800361064,
+        "weight_decay": 2.8657866542397466e-06
+      }
+    },
+    "misc": {
+      "tid": 23,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          23
+        ],
+        "cat_emb_dim_0": [
+          23
+        ],
+        "cat_emb_dim_1": [
+          23
+        ],
+        "cat_emb_dim_2": [
+          23
+        ],
+        "cat_emb_dim_3": [
+          23
+        ],
+        "cat_emb_dim_4": [
+          23
+        ],
+        "cat_emb_dim_5": [
+          23
+        ],
+        "cat_emb_dim_6": [
+          23
+        ],
+        "cat_emb_dim_7": [
+          23
+        ],
+        "dropout_p": [
+          23
+        ],
+        "hidden_dim": [
+          23
+        ],
+        "learning_rate": [
+          23
+        ],
+        "weight_decay": [
+          23
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1338.0
+        ],
+        "cat_emb_dim_0": [
+          11.0
+        ],
+        "cat_emb_dim_1": [
+          4.0
+        ],
+        "cat_emb_dim_2": [
+          12.0
+        ],
+        "cat_emb_dim_3": [
+          8.0
+        ],
+        "cat_emb_dim_4": [
+          9.0
+        ],
+        "cat_emb_dim_5": [
+          1.0
+        ],
+        "cat_emb_dim_6": [
+          6.0
+        ],
+        "cat_emb_dim_7": [
+          11.0
+        ],
+        "dropout_p": [
+          0.6644140700528249
+        ],
+        "hidden_dim": [
+          21.0
+        ],
+        "learning_rate": [
+          0.009599754800361064
+        ],
+        "weight_decay": [
+          2.8657866542397466e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:04:42.488000",
+    "refresh_time": "2025-02-17T02:07:35.938000"
+  },
+  {
+    "state": 2,
+    "tid": 24,
+    "spec": null,
+    "result": {
+      "loss": -0.602296947115016,
+      "status": "ok",
+      "params": {
+        "batch_size": 1440.0,
+        "cat_emb_dim_0": 16.0,
+        "cat_emb_dim_1": 7.0,
+        "cat_emb_dim_2": 7.0,
+        "cat_emb_dim_3": 6.0,
+        "cat_emb_dim_4": 11.0,
+        "cat_emb_dim_5": 9.0,
+        "cat_emb_dim_6": 1.0,
+        "cat_emb_dim_7": 7.0,
+        "dropout_p": 0.4067434527340948,
+        "hidden_dim": 17.0,
+        "learning_rate": 0.002408192476592521,
+        "weight_decay": 1.7813318611561512e-05
+      }
+    },
+    "misc": {
+      "tid": 24,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          24
+        ],
+        "cat_emb_dim_0": [
+          24
+        ],
+        "cat_emb_dim_1": [
+          24
+        ],
+        "cat_emb_dim_2": [
+          24
+        ],
+        "cat_emb_dim_3": [
+          24
+        ],
+        "cat_emb_dim_4": [
+          24
+        ],
+        "cat_emb_dim_5": [
+          24
+        ],
+        "cat_emb_dim_6": [
+          24
+        ],
+        "cat_emb_dim_7": [
+          24
+        ],
+        "dropout_p": [
+          24
+        ],
+        "hidden_dim": [
+          24
+        ],
+        "learning_rate": [
+          24
+        ],
+        "weight_decay": [
+          24
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1440.0
+        ],
+        "cat_emb_dim_0": [
+          16.0
+        ],
+        "cat_emb_dim_1": [
+          7.0
+        ],
+        "cat_emb_dim_2": [
+          7.0
+        ],
+        "cat_emb_dim_3": [
+          6.0
+        ],
+        "cat_emb_dim_4": [
+          11.0
+        ],
+        "cat_emb_dim_5": [
+          9.0
+        ],
+        "cat_emb_dim_6": [
+          1.0
+        ],
+        "cat_emb_dim_7": [
+          7.0
+        ],
+        "dropout_p": [
+          0.4067434527340948
+        ],
+        "hidden_dim": [
+          17.0
+        ],
+        "learning_rate": [
+          0.002408192476592521
+        ],
+        "weight_decay": [
+          1.7813318611561512e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:07:35.960000",
+    "refresh_time": "2025-02-17T02:09:52.430000"
+  },
+  {
+    "state": 2,
+    "tid": 25,
+    "spec": null,
+    "result": {
+      "loss": -0.6180367082202494,
+      "status": "ok",
+      "params": {
+        "batch_size": 1628.0,
+        "cat_emb_dim_0": 8.0,
+        "cat_emb_dim_1": 4.0,
+        "cat_emb_dim_2": 1.0,
+        "cat_emb_dim_3": 9.0,
+        "cat_emb_dim_4": 14.0,
+        "cat_emb_dim_5": 13.0,
+        "cat_emb_dim_6": 3.0,
+        "cat_emb_dim_7": 5.0,
+        "dropout_p": 0.16216411473262707,
+        "hidden_dim": 25.0,
+        "learning_rate": 0.0012201507658629036,
+        "weight_decay": 2.148104912099067e-06
+      }
+    },
+    "misc": {
+      "tid": 25,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          25
+        ],
+        "cat_emb_dim_0": [
+          25
+        ],
+        "cat_emb_dim_1": [
+          25
+        ],
+        "cat_emb_dim_2": [
+          25
+        ],
+        "cat_emb_dim_3": [
+          25
+        ],
+        "cat_emb_dim_4": [
+          25
+        ],
+        "cat_emb_dim_5": [
+          25
+        ],
+        "cat_emb_dim_6": [
+          25
+        ],
+        "cat_emb_dim_7": [
+          25
+        ],
+        "dropout_p": [
+          25
+        ],
+        "hidden_dim": [
+          25
+        ],
+        "learning_rate": [
+          25
+        ],
+        "weight_decay": [
+          25
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1628.0
+        ],
+        "cat_emb_dim_0": [
+          8.0
+        ],
+        "cat_emb_dim_1": [
+          4.0
+        ],
+        "cat_emb_dim_2": [
+          1.0
+        ],
+        "cat_emb_dim_3": [
+          9.0
+        ],
+        "cat_emb_dim_4": [
+          14.0
+        ],
+        "cat_emb_dim_5": [
+          13.0
+        ],
+        "cat_emb_dim_6": [
+          3.0
+        ],
+        "cat_emb_dim_7": [
+          5.0
+        ],
+        "dropout_p": [
+          0.16216411473262707
+        ],
+        "hidden_dim": [
+          25.0
+        ],
+        "learning_rate": [
+          0.0012201507658629036
+        ],
+        "weight_decay": [
+          2.148104912099067e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:09:52.455000",
+    "refresh_time": "2025-02-17T02:11:28.652000"
+  },
+  {
+    "state": 2,
+    "tid": 26,
+    "spec": null,
+    "result": {
+      "loss": -0.7223270006286704,
+      "status": "ok",
+      "params": {
+        "batch_size": 689.0,
+        "cat_emb_dim_0": 10.0,
+        "cat_emb_dim_1": 8.0,
+        "cat_emb_dim_2": 16.0,
+        "cat_emb_dim_3": 2.0,
+        "cat_emb_dim_4": 9.0,
+        "cat_emb_dim_5": 18.0,
+        "cat_emb_dim_6": 7.0,
+        "cat_emb_dim_7": 9.0,
+        "dropout_p": 0.026045352435105307,
+        "hidden_dim": 34.0,
+        "learning_rate": 0.0006776394619665015,
+        "weight_decay": 1.0775472942581787e-06
+      }
+    },
+    "misc": {
+      "tid": 26,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          26
+        ],
+        "cat_emb_dim_0": [
+          26
+        ],
+        "cat_emb_dim_1": [
+          26
+        ],
+        "cat_emb_dim_2": [
+          26
+        ],
+        "cat_emb_dim_3": [
+          26
+        ],
+        "cat_emb_dim_4": [
+          26
+        ],
+        "cat_emb_dim_5": [
+          26
+        ],
+        "cat_emb_dim_6": [
+          26
+        ],
+        "cat_emb_dim_7": [
+          26
+        ],
+        "dropout_p": [
+          26
+        ],
+        "hidden_dim": [
+          26
+        ],
+        "learning_rate": [
+          26
+        ],
+        "weight_decay": [
+          26
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          689.0
+        ],
+        "cat_emb_dim_0": [
+          10.0
+        ],
+        "cat_emb_dim_1": [
+          8.0
+        ],
+        "cat_emb_dim_2": [
+          16.0
+        ],
+        "cat_emb_dim_3": [
+          2.0
+        ],
+        "cat_emb_dim_4": [
+          9.0
+        ],
+        "cat_emb_dim_5": [
+          18.0
+        ],
+        "cat_emb_dim_6": [
+          7.0
+        ],
+        "cat_emb_dim_7": [
+          9.0
+        ],
+        "dropout_p": [
+          0.026045352435105307
+        ],
+        "hidden_dim": [
+          34.0
+        ],
+        "learning_rate": [
+          0.0006776394619665015
+        ],
+        "weight_decay": [
+          1.0775472942581787e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:11:28.679000",
+    "refresh_time": "2025-02-17T02:16:28.844000"
+  },
+  {
+    "state": 2,
+    "tid": 27,
+    "spec": null,
+    "result": {
+      "loss": -0.7336660686630786,
+      "status": "ok",
+      "params": {
+        "batch_size": 638.0,
+        "cat_emb_dim_0": 7.0,
+        "cat_emb_dim_1": 3.0,
+        "cat_emb_dim_2": 16.0,
+        "cat_emb_dim_3": 1.0,
+        "cat_emb_dim_4": 4.0,
+        "cat_emb_dim_5": 17.0,
+        "cat_emb_dim_6": 7.0,
+        "cat_emb_dim_7": 9.0,
+        "dropout_p": 0.00555602389948473,
+        "hidden_dim": 7.0,
+        "learning_rate": 0.0006554714391617533,
+        "weight_decay": 1.2366343408031562e-06
+      }
+    },
+    "misc": {
+      "tid": 27,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          27
+        ],
+        "cat_emb_dim_0": [
+          27
+        ],
+        "cat_emb_dim_1": [
+          27
+        ],
+        "cat_emb_dim_2": [
+          27
+        ],
+        "cat_emb_dim_3": [
+          27
+        ],
+        "cat_emb_dim_4": [
+          27
+        ],
+        "cat_emb_dim_5": [
+          27
+        ],
+        "cat_emb_dim_6": [
+          27
+        ],
+        "cat_emb_dim_7": [
+          27
+        ],
+        "dropout_p": [
+          27
+        ],
+        "hidden_dim": [
+          27
+        ],
+        "learning_rate": [
+          27
+        ],
+        "weight_decay": [
+          27
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          638.0
+        ],
+        "cat_emb_dim_0": [
+          7.0
+        ],
+        "cat_emb_dim_1": [
+          3.0
+        ],
+        "cat_emb_dim_2": [
+          16.0
+        ],
+        "cat_emb_dim_3": [
+          1.0
+        ],
+        "cat_emb_dim_4": [
+          4.0
+        ],
+        "cat_emb_dim_5": [
+          17.0
+        ],
+        "cat_emb_dim_6": [
+          7.0
+        ],
+        "cat_emb_dim_7": [
+          9.0
+        ],
+        "dropout_p": [
+          0.00555602389948473
+        ],
+        "hidden_dim": [
+          7.0
+        ],
+        "learning_rate": [
+          0.0006554714391617533
+        ],
+        "weight_decay": [
+          1.2366343408031562e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:16:28.865000",
+    "refresh_time": "2025-02-17T02:21:46.461000"
+  },
+  {
+    "state": 2,
+    "tid": 28,
+    "spec": null,
+    "result": {
+      "loss": -0.5241041446248678,
+      "status": "ok",
+      "params": {
+        "batch_size": 710.0,
+        "cat_emb_dim_0": 7.0,
+        "cat_emb_dim_1": 1.0,
+        "cat_emb_dim_2": 7.0,
+        "cat_emb_dim_3": 1.0,
+        "cat_emb_dim_4": 4.0,
+        "cat_emb_dim_5": 16.0,
+        "cat_emb_dim_6": 8.0,
+        "cat_emb_dim_7": 12.0,
+        "dropout_p": 0.6803947709815115,
+        "hidden_dim": 5.0,
+        "learning_rate": 0.0012816531604396978,
+        "weight_decay": 4.223080163636859e-06
+      }
+    },
+    "misc": {
+      "tid": 28,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          28
+        ],
+        "cat_emb_dim_0": [
+          28
+        ],
+        "cat_emb_dim_1": [
+          28
+        ],
+        "cat_emb_dim_2": [
+          28
+        ],
+        "cat_emb_dim_3": [
+          28
+        ],
+        "cat_emb_dim_4": [
+          28
+        ],
+        "cat_emb_dim_5": [
+          28
+        ],
+        "cat_emb_dim_6": [
+          28
+        ],
+        "cat_emb_dim_7": [
+          28
+        ],
+        "dropout_p": [
+          28
+        ],
+        "hidden_dim": [
+          28
+        ],
+        "learning_rate": [
+          28
+        ],
+        "weight_decay": [
+          28
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          710.0
+        ],
+        "cat_emb_dim_0": [
+          7.0
+        ],
+        "cat_emb_dim_1": [
+          1.0
+        ],
+        "cat_emb_dim_2": [
+          7.0
+        ],
+        "cat_emb_dim_3": [
+          1.0
+        ],
+        "cat_emb_dim_4": [
+          4.0
+        ],
+        "cat_emb_dim_5": [
+          16.0
+        ],
+        "cat_emb_dim_6": [
+          8.0
+        ],
+        "cat_emb_dim_7": [
+          12.0
+        ],
+        "dropout_p": [
+          0.6803947709815115
+        ],
+        "hidden_dim": [
+          5.0
+        ],
+        "learning_rate": [
+          0.0012816531604396978
+        ],
+        "weight_decay": [
+          4.223080163636859e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:21:46.491000",
+    "refresh_time": "2025-02-17T02:24:48.807000"
+  },
+  {
+    "state": 2,
+    "tid": 29,
+    "spec": null,
+    "result": {
+      "loss": -0.5939478970207155,
+      "status": "ok",
+      "params": {
+        "batch_size": 1257.0,
+        "cat_emb_dim_0": 4.0,
+        "cat_emb_dim_1": 3.0,
+        "cat_emb_dim_2": 3.0,
+        "cat_emb_dim_3": 3.0,
+        "cat_emb_dim_4": 3.0,
+        "cat_emb_dim_5": 17.0,
+        "cat_emb_dim_6": 8.0,
+        "cat_emb_dim_7": 9.0,
+        "dropout_p": 0.3735768348922525,
+        "hidden_dim": 74.0,
+        "learning_rate": 0.00048624658806930687,
+        "weight_decay": 1.6164933011203914e-06
+      }
+    },
+    "misc": {
+      "tid": 29,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          29
+        ],
+        "cat_emb_dim_0": [
+          29
+        ],
+        "cat_emb_dim_1": [
+          29
+        ],
+        "cat_emb_dim_2": [
+          29
+        ],
+        "cat_emb_dim_3": [
+          29
+        ],
+        "cat_emb_dim_4": [
+          29
+        ],
+        "cat_emb_dim_5": [
+          29
+        ],
+        "cat_emb_dim_6": [
+          29
+        ],
+        "cat_emb_dim_7": [
+          29
+        ],
+        "dropout_p": [
+          29
+        ],
+        "hidden_dim": [
+          29
+        ],
+        "learning_rate": [
+          29
+        ],
+        "weight_decay": [
+          29
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1257.0
+        ],
+        "cat_emb_dim_0": [
+          4.0
+        ],
+        "cat_emb_dim_1": [
+          3.0
+        ],
+        "cat_emb_dim_2": [
+          3.0
+        ],
+        "cat_emb_dim_3": [
+          3.0
+        ],
+        "cat_emb_dim_4": [
+          3.0
+        ],
+        "cat_emb_dim_5": [
+          17.0
+        ],
+        "cat_emb_dim_6": [
+          8.0
+        ],
+        "cat_emb_dim_7": [
+          9.0
+        ],
+        "dropout_p": [
+          0.3735768348922525
+        ],
+        "hidden_dim": [
+          74.0
+        ],
+        "learning_rate": [
+          0.00048624658806930687
+        ],
+        "weight_decay": [
+          1.6164933011203914e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:24:48.834000",
+    "refresh_time": "2025-02-17T02:26:38.610000"
+  },
+  {
+    "state": 2,
+    "tid": 30,
+    "spec": null,
+    "result": {
+      "loss": -0.6026726160356962,
+      "status": "ok",
+      "params": {
+        "batch_size": 608.0,
+        "cat_emb_dim_0": 11.0,
+        "cat_emb_dim_1": 6.0,
+        "cat_emb_dim_2": 11.0,
+        "cat_emb_dim_3": 5.0,
+        "cat_emb_dim_4": 4.0,
+        "cat_emb_dim_5": 19.0,
+        "cat_emb_dim_6": 10.0,
+        "cat_emb_dim_7": 10.0,
+        "dropout_p": 0.009715465552283198,
+        "hidden_dim": 13.0,
+        "learning_rate": 0.0008277161575406596,
+        "weight_decay": 2.107525773350424e-05
+      }
+    },
+    "misc": {
+      "tid": 30,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          30
+        ],
+        "cat_emb_dim_0": [
+          30
+        ],
+        "cat_emb_dim_1": [
+          30
+        ],
+        "cat_emb_dim_2": [
+          30
+        ],
+        "cat_emb_dim_3": [
+          30
+        ],
+        "cat_emb_dim_4": [
+          30
+        ],
+        "cat_emb_dim_5": [
+          30
+        ],
+        "cat_emb_dim_6": [
+          30
+        ],
+        "cat_emb_dim_7": [
+          30
+        ],
+        "dropout_p": [
+          30
+        ],
+        "hidden_dim": [
+          30
+        ],
+        "learning_rate": [
+          30
+        ],
+        "weight_decay": [
+          30
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          608.0
+        ],
+        "cat_emb_dim_0": [
+          11.0
+        ],
+        "cat_emb_dim_1": [
+          6.0
+        ],
+        "cat_emb_dim_2": [
+          11.0
+        ],
+        "cat_emb_dim_3": [
+          5.0
+        ],
+        "cat_emb_dim_4": [
+          4.0
+        ],
+        "cat_emb_dim_5": [
+          19.0
+        ],
+        "cat_emb_dim_6": [
+          10.0
+        ],
+        "cat_emb_dim_7": [
+          10.0
+        ],
+        "dropout_p": [
+          0.009715465552283198
+        ],
+        "hidden_dim": [
+          13.0
+        ],
+        "learning_rate": [
+          0.0008277161575406596
+        ],
+        "weight_decay": [
+          2.107525773350424e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:26:38.634000",
+    "refresh_time": "2025-02-17T02:30:52.060000"
+  },
+  {
+    "state": 2,
+    "tid": 31,
+    "spec": null,
+    "result": {
+      "loss": -0.5715687627459098,
+      "status": "ok",
+      "params": {
+        "batch_size": 1433.0,
+        "cat_emb_dim_0": 4.0,
+        "cat_emb_dim_1": 1.0,
+        "cat_emb_dim_2": 5.0,
+        "cat_emb_dim_3": 1.0,
+        "cat_emb_dim_4": 8.0,
+        "cat_emb_dim_5": 1.0,
+        "cat_emb_dim_6": 2.0,
+        "cat_emb_dim_7": 3.0,
+        "dropout_p": 0.244308991584679,
+        "hidden_dim": 4.0,
+        "learning_rate": 0.0015666733964881917,
+        "weight_decay": 1.3221044327877209e-05
+      }
+    },
+    "misc": {
+      "tid": 31,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          31
+        ],
+        "cat_emb_dim_0": [
+          31
+        ],
+        "cat_emb_dim_1": [
+          31
+        ],
+        "cat_emb_dim_2": [
+          31
+        ],
+        "cat_emb_dim_3": [
+          31
+        ],
+        "cat_emb_dim_4": [
+          31
+        ],
+        "cat_emb_dim_5": [
+          31
+        ],
+        "cat_emb_dim_6": [
+          31
+        ],
+        "cat_emb_dim_7": [
+          31
+        ],
+        "dropout_p": [
+          31
+        ],
+        "hidden_dim": [
+          31
+        ],
+        "learning_rate": [
+          31
+        ],
+        "weight_decay": [
+          31
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1433.0
+        ],
+        "cat_emb_dim_0": [
+          4.0
+        ],
+        "cat_emb_dim_1": [
+          1.0
+        ],
+        "cat_emb_dim_2": [
+          5.0
+        ],
+        "cat_emb_dim_3": [
+          1.0
+        ],
+        "cat_emb_dim_4": [
+          8.0
+        ],
+        "cat_emb_dim_5": [
+          1.0
+        ],
+        "cat_emb_dim_6": [
+          2.0
+        ],
+        "cat_emb_dim_7": [
+          3.0
+        ],
+        "dropout_p": [
+          0.244308991584679
+        ],
+        "hidden_dim": [
+          4.0
+        ],
+        "learning_rate": [
+          0.0015666733964881917
+        ],
+        "weight_decay": [
+          1.3221044327877209e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:30:52.087000",
+    "refresh_time": "2025-02-17T02:32:55.377000"
+  },
+  {
+    "state": 2,
+    "tid": 32,
+    "spec": null,
+    "result": {
+      "loss": -0.6084533173865709,
+      "status": "ok",
+      "params": {
+        "batch_size": 794.0,
+        "cat_emb_dim_0": 7.0,
+        "cat_emb_dim_1": 4.0,
+        "cat_emb_dim_2": 1.0,
+        "cat_emb_dim_3": 7.0,
+        "cat_emb_dim_4": 11.0,
+        "cat_emb_dim_5": 5.0,
+        "cat_emb_dim_6": 5.0,
+        "cat_emb_dim_7": 8.0,
+        "dropout_p": 0.08034958476967463,
+        "hidden_dim": 104.0,
+        "learning_rate": 0.0005494144304328823,
+        "weight_decay": 4.929497523402417e-06
+      }
+    },
+    "misc": {
+      "tid": 32,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          32
+        ],
+        "cat_emb_dim_0": [
+          32
+        ],
+        "cat_emb_dim_1": [
+          32
+        ],
+        "cat_emb_dim_2": [
+          32
+        ],
+        "cat_emb_dim_3": [
+          32
+        ],
+        "cat_emb_dim_4": [
+          32
+        ],
+        "cat_emb_dim_5": [
+          32
+        ],
+        "cat_emb_dim_6": [
+          32
+        ],
+        "cat_emb_dim_7": [
+          32
+        ],
+        "dropout_p": [
+          32
+        ],
+        "hidden_dim": [
+          32
+        ],
+        "learning_rate": [
+          32
+        ],
+        "weight_decay": [
+          32
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          794.0
+        ],
+        "cat_emb_dim_0": [
+          7.0
+        ],
+        "cat_emb_dim_1": [
+          4.0
+        ],
+        "cat_emb_dim_2": [
+          1.0
+        ],
+        "cat_emb_dim_3": [
+          7.0
+        ],
+        "cat_emb_dim_4": [
+          11.0
+        ],
+        "cat_emb_dim_5": [
+          5.0
+        ],
+        "cat_emb_dim_6": [
+          5.0
+        ],
+        "cat_emb_dim_7": [
+          8.0
+        ],
+        "dropout_p": [
+          0.08034958476967463
+        ],
+        "hidden_dim": [
+          104.0
+        ],
+        "learning_rate": [
+          0.0005494144304328823
+        ],
+        "weight_decay": [
+          4.929497523402417e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:32:55.403000",
+    "refresh_time": "2025-02-17T02:34:36.338000"
+  },
+  {
+    "state": 2,
+    "tid": 33,
+    "spec": null,
+    "result": {
+      "loss": -0.495453639388503,
+      "status": "ok",
+      "params": {
+        "batch_size": 1198.0,
+        "cat_emb_dim_0": 12.0,
+        "cat_emb_dim_1": 3.0,
+        "cat_emb_dim_2": 17.0,
+        "cat_emb_dim_3": 3.0,
+        "cat_emb_dim_4": 1.0,
+        "cat_emb_dim_5": 9.0,
+        "cat_emb_dim_6": 10.0,
+        "cat_emb_dim_7": 12.0,
+        "dropout_p": 0.45817550160020537,
+        "hidden_dim": 10.0,
+        "learning_rate": 0.00011053162722468887,
+        "weight_decay": 4.3904974988327804e-05
+      }
+    },
+    "misc": {
+      "tid": 33,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          33
+        ],
+        "cat_emb_dim_0": [
+          33
+        ],
+        "cat_emb_dim_1": [
+          33
+        ],
+        "cat_emb_dim_2": [
+          33
+        ],
+        "cat_emb_dim_3": [
+          33
+        ],
+        "cat_emb_dim_4": [
+          33
+        ],
+        "cat_emb_dim_5": [
+          33
+        ],
+        "cat_emb_dim_6": [
+          33
+        ],
+        "cat_emb_dim_7": [
+          33
+        ],
+        "dropout_p": [
+          33
+        ],
+        "hidden_dim": [
+          33
+        ],
+        "learning_rate": [
+          33
+        ],
+        "weight_decay": [
+          33
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1198.0
+        ],
+        "cat_emb_dim_0": [
+          12.0
+        ],
+        "cat_emb_dim_1": [
+          3.0
+        ],
+        "cat_emb_dim_2": [
+          17.0
+        ],
+        "cat_emb_dim_3": [
+          3.0
+        ],
+        "cat_emb_dim_4": [
+          1.0
+        ],
+        "cat_emb_dim_5": [
+          9.0
+        ],
+        "cat_emb_dim_6": [
+          10.0
+        ],
+        "cat_emb_dim_7": [
+          12.0
+        ],
+        "dropout_p": [
+          0.45817550160020537
+        ],
+        "hidden_dim": [
+          10.0
+        ],
+        "learning_rate": [
+          0.00011053162722468887
+        ],
+        "weight_decay": [
+          4.3904974988327804e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:34:36.368000",
+    "refresh_time": "2025-02-17T02:38:17.077000"
+  },
+  {
+    "state": 2,
+    "tid": 34,
+    "spec": null,
+    "result": {
+      "loss": -0.6716730300381802,
+      "status": "ok",
+      "params": {
+        "batch_size": 256.0,
+        "cat_emb_dim_0": 10.0,
+        "cat_emb_dim_1": 6.0,
+        "cat_emb_dim_2": 2.0,
+        "cat_emb_dim_3": 5.0,
+        "cat_emb_dim_4": 20.0,
+        "cat_emb_dim_5": 13.0,
+        "cat_emb_dim_6": 7.0,
+        "cat_emb_dim_7": 17.0,
+        "dropout_p": 0.1218254902152978,
+        "hidden_dim": 23.0,
+        "learning_rate": 0.006850368751550586,
+        "weight_decay": 1.0683799964475676e-06
+      }
+    },
+    "misc": {
+      "tid": 34,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          34
+        ],
+        "cat_emb_dim_0": [
+          34
+        ],
+        "cat_emb_dim_1": [
+          34
+        ],
+        "cat_emb_dim_2": [
+          34
+        ],
+        "cat_emb_dim_3": [
+          34
+        ],
+        "cat_emb_dim_4": [
+          34
+        ],
+        "cat_emb_dim_5": [
+          34
+        ],
+        "cat_emb_dim_6": [
+          34
+        ],
+        "cat_emb_dim_7": [
+          34
+        ],
+        "dropout_p": [
+          34
+        ],
+        "hidden_dim": [
+          34
+        ],
+        "learning_rate": [
+          34
+        ],
+        "weight_decay": [
+          34
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          256.0
+        ],
+        "cat_emb_dim_0": [
+          10.0
+        ],
+        "cat_emb_dim_1": [
+          6.0
+        ],
+        "cat_emb_dim_2": [
+          2.0
+        ],
+        "cat_emb_dim_3": [
+          5.0
+        ],
+        "cat_emb_dim_4": [
+          20.0
+        ],
+        "cat_emb_dim_5": [
+          13.0
+        ],
+        "cat_emb_dim_6": [
+          7.0
+        ],
+        "cat_emb_dim_7": [
+          17.0
+        ],
+        "dropout_p": [
+          0.1218254902152978
+        ],
+        "hidden_dim": [
+          23.0
+        ],
+        "learning_rate": [
+          0.006850368751550586
+        ],
+        "weight_decay": [
+          1.0683799964475676e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:38:17.104000",
+    "refresh_time": "2025-02-17T02:41:02.186000"
+  },
+  {
+    "state": 2,
+    "tid": 35,
+    "spec": null,
+    "result": {
+      "loss": -0.5997209316589233,
+      "status": "ok",
+      "params": {
+        "batch_size": 505.0,
+        "cat_emb_dim_0": 5.0,
+        "cat_emb_dim_1": 12.0,
+        "cat_emb_dim_2": 8.0,
+        "cat_emb_dim_3": 19.0,
+        "cat_emb_dim_4": 8.0,
+        "cat_emb_dim_5": 15.0,
+        "cat_emb_dim_6": 5.0,
+        "cat_emb_dim_7": 5.0,
+        "dropout_p": 0.3438113201861233,
+        "hidden_dim": 79.0,
+        "learning_rate": 0.0011546418050633488,
+        "weight_decay": 0.00017279276688756643
+      }
+    },
+    "misc": {
+      "tid": 35,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          35
+        ],
+        "cat_emb_dim_0": [
+          35
+        ],
+        "cat_emb_dim_1": [
+          35
+        ],
+        "cat_emb_dim_2": [
+          35
+        ],
+        "cat_emb_dim_3": [
+          35
+        ],
+        "cat_emb_dim_4": [
+          35
+        ],
+        "cat_emb_dim_5": [
+          35
+        ],
+        "cat_emb_dim_6": [
+          35
+        ],
+        "cat_emb_dim_7": [
+          35
+        ],
+        "dropout_p": [
+          35
+        ],
+        "hidden_dim": [
+          35
+        ],
+        "learning_rate": [
+          35
+        ],
+        "weight_decay": [
+          35
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          505.0
+        ],
+        "cat_emb_dim_0": [
+          5.0
+        ],
+        "cat_emb_dim_1": [
+          12.0
+        ],
+        "cat_emb_dim_2": [
+          8.0
+        ],
+        "cat_emb_dim_3": [
+          19.0
+        ],
+        "cat_emb_dim_4": [
+          8.0
+        ],
+        "cat_emb_dim_5": [
+          15.0
+        ],
+        "cat_emb_dim_6": [
+          5.0
+        ],
+        "cat_emb_dim_7": [
+          5.0
+        ],
+        "dropout_p": [
+          0.3438113201861233
+        ],
+        "hidden_dim": [
+          79.0
+        ],
+        "learning_rate": [
+          0.0011546418050633488
+        ],
+        "weight_decay": [
+          0.00017279276688756643
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:41:02.227000",
+    "refresh_time": "2025-02-17T02:45:00.217000"
+  },
+  {
+    "state": 2,
+    "tid": 36,
+    "spec": null,
+    "result": {
+      "loss": -0.6618826379624945,
+      "status": "ok",
+      "params": {
+        "batch_size": 1094.0,
+        "cat_emb_dim_0": 8.0,
+        "cat_emb_dim_1": 6.0,
+        "cat_emb_dim_2": 12.0,
+        "cat_emb_dim_3": 15.0,
+        "cat_emb_dim_4": 6.0,
+        "cat_emb_dim_5": 9.0,
+        "cat_emb_dim_6": 9.0,
+        "cat_emb_dim_7": 1.0,
+        "dropout_p": 0.4871897412921897,
+        "hidden_dim": 40.0,
+        "learning_rate": 0.0007443467675916794,
+        "weight_decay": 2.1531566947382085e-06
+      }
+    },
+    "misc": {
+      "tid": 36,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          36
+        ],
+        "cat_emb_dim_0": [
+          36
+        ],
+        "cat_emb_dim_1": [
+          36
+        ],
+        "cat_emb_dim_2": [
+          36
+        ],
+        "cat_emb_dim_3": [
+          36
+        ],
+        "cat_emb_dim_4": [
+          36
+        ],
+        "cat_emb_dim_5": [
+          36
+        ],
+        "cat_emb_dim_6": [
+          36
+        ],
+        "cat_emb_dim_7": [
+          36
+        ],
+        "dropout_p": [
+          36
+        ],
+        "hidden_dim": [
+          36
+        ],
+        "learning_rate": [
+          36
+        ],
+        "weight_decay": [
+          36
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1094.0
+        ],
+        "cat_emb_dim_0": [
+          8.0
+        ],
+        "cat_emb_dim_1": [
+          6.0
+        ],
+        "cat_emb_dim_2": [
+          12.0
+        ],
+        "cat_emb_dim_3": [
+          15.0
+        ],
+        "cat_emb_dim_4": [
+          6.0
+        ],
+        "cat_emb_dim_5": [
+          9.0
+        ],
+        "cat_emb_dim_6": [
+          9.0
+        ],
+        "cat_emb_dim_7": [
+          1.0
+        ],
+        "dropout_p": [
+          0.4871897412921897
+        ],
+        "hidden_dim": [
+          40.0
+        ],
+        "learning_rate": [
+          0.0007443467675916794
+        ],
+        "weight_decay": [
+          2.1531566947382085e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:45:00.245000",
+    "refresh_time": "2025-02-17T02:48:10.547000"
+  },
+  {
+    "state": 2,
+    "tid": 37,
+    "spec": null,
+    "result": {
+      "loss": -0.6339068034408206,
+      "status": "ok",
+      "params": {
+        "batch_size": 581.0,
+        "cat_emb_dim_0": 1.0,
+        "cat_emb_dim_1": 3.0,
+        "cat_emb_dim_2": 14.0,
+        "cat_emb_dim_3": 10.0,
+        "cat_emb_dim_4": 3.0,
+        "cat_emb_dim_5": 20.0,
+        "cat_emb_dim_6": 20.0,
+        "cat_emb_dim_7": 8.0,
+        "dropout_p": 0.6264428328615177,
+        "hidden_dim": 31.0,
+        "learning_rate": 0.000504011611145256,
+        "weight_decay": 3.84149066503265e-06
+      }
+    },
+    "misc": {
+      "tid": 37,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          37
+        ],
+        "cat_emb_dim_0": [
+          37
+        ],
+        "cat_emb_dim_1": [
+          37
+        ],
+        "cat_emb_dim_2": [
+          37
+        ],
+        "cat_emb_dim_3": [
+          37
+        ],
+        "cat_emb_dim_4": [
+          37
+        ],
+        "cat_emb_dim_5": [
+          37
+        ],
+        "cat_emb_dim_6": [
+          37
+        ],
+        "cat_emb_dim_7": [
+          37
+        ],
+        "dropout_p": [
+          37
+        ],
+        "hidden_dim": [
+          37
+        ],
+        "learning_rate": [
+          37
+        ],
+        "weight_decay": [
+          37
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          581.0
+        ],
+        "cat_emb_dim_0": [
+          1.0
+        ],
+        "cat_emb_dim_1": [
+          3.0
+        ],
+        "cat_emb_dim_2": [
+          14.0
+        ],
+        "cat_emb_dim_3": [
+          10.0
+        ],
+        "cat_emb_dim_4": [
+          3.0
+        ],
+        "cat_emb_dim_5": [
+          20.0
+        ],
+        "cat_emb_dim_6": [
+          20.0
+        ],
+        "cat_emb_dim_7": [
+          8.0
+        ],
+        "dropout_p": [
+          0.6264428328615177
+        ],
+        "hidden_dim": [
+          31.0
+        ],
+        "learning_rate": [
+          0.000504011611145256
+        ],
+        "weight_decay": [
+          3.84149066503265e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:48:10.579000",
+    "refresh_time": "2025-02-17T02:53:12.563000"
+  },
+  {
+    "state": 2,
+    "tid": 38,
+    "spec": null,
+    "result": {
+      "loss": -0.5967539138568164,
+      "status": "ok",
+      "params": {
+        "batch_size": 1669.0,
+        "cat_emb_dim_0": 8.0,
+        "cat_emb_dim_1": 9.0,
+        "cat_emb_dim_2": 3.0,
+        "cat_emb_dim_3": 8.0,
+        "cat_emb_dim_4": 7.0,
+        "cat_emb_dim_5": 3.0,
+        "cat_emb_dim_6": 3.0,
+        "cat_emb_dim_7": 10.0,
+        "dropout_p": 0.13894564092772915,
+        "hidden_dim": 18.0,
+        "learning_rate": 0.002016886864357645,
+        "weight_decay": 2.7829459454664246e-05
+      }
+    },
+    "misc": {
+      "tid": 38,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          38
+        ],
+        "cat_emb_dim_0": [
+          38
+        ],
+        "cat_emb_dim_1": [
+          38
+        ],
+        "cat_emb_dim_2": [
+          38
+        ],
+        "cat_emb_dim_3": [
+          38
+        ],
+        "cat_emb_dim_4": [
+          38
+        ],
+        "cat_emb_dim_5": [
+          38
+        ],
+        "cat_emb_dim_6": [
+          38
+        ],
+        "cat_emb_dim_7": [
+          38
+        ],
+        "dropout_p": [
+          38
+        ],
+        "hidden_dim": [
+          38
+        ],
+        "learning_rate": [
+          38
+        ],
+        "weight_decay": [
+          38
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1669.0
+        ],
+        "cat_emb_dim_0": [
+          8.0
+        ],
+        "cat_emb_dim_1": [
+          9.0
+        ],
+        "cat_emb_dim_2": [
+          3.0
+        ],
+        "cat_emb_dim_3": [
+          8.0
+        ],
+        "cat_emb_dim_4": [
+          7.0
+        ],
+        "cat_emb_dim_5": [
+          3.0
+        ],
+        "cat_emb_dim_6": [
+          3.0
+        ],
+        "cat_emb_dim_7": [
+          10.0
+        ],
+        "dropout_p": [
+          0.13894564092772915
+        ],
+        "hidden_dim": [
+          18.0
+        ],
+        "learning_rate": [
+          0.002016886864357645
+        ],
+        "weight_decay": [
+          2.7829459454664246e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:53:12.595000",
+    "refresh_time": "2025-02-17T02:54:56.649000"
+  },
+  {
+    "state": 2,
+    "tid": 39,
+    "spec": null,
+    "result": {
+      "loss": -0.6843921063526381,
+      "status": "ok",
+      "params": {
+        "batch_size": 1349.0,
+        "cat_emb_dim_0": 12.0,
+        "cat_emb_dim_1": 1.0,
+        "cat_emb_dim_2": 5.0,
+        "cat_emb_dim_3": 11.0,
+        "cat_emb_dim_4": 10.0,
+        "cat_emb_dim_5": 17.0,
+        "cat_emb_dim_6": 8.0,
+        "cat_emb_dim_7": 14.0,
+        "dropout_p": 0.7261881054509598,
+        "hidden_dim": 39.0,
+        "learning_rate": 0.002801171032846289,
+        "weight_decay": 1.6672141501451014e-06
+      }
+    },
+    "misc": {
+      "tid": 39,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          39
+        ],
+        "cat_emb_dim_0": [
+          39
+        ],
+        "cat_emb_dim_1": [
+          39
+        ],
+        "cat_emb_dim_2": [
+          39
+        ],
+        "cat_emb_dim_3": [
+          39
+        ],
+        "cat_emb_dim_4": [
+          39
+        ],
+        "cat_emb_dim_5": [
+          39
+        ],
+        "cat_emb_dim_6": [
+          39
+        ],
+        "cat_emb_dim_7": [
+          39
+        ],
+        "dropout_p": [
+          39
+        ],
+        "hidden_dim": [
+          39
+        ],
+        "learning_rate": [
+          39
+        ],
+        "weight_decay": [
+          39
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1349.0
+        ],
+        "cat_emb_dim_0": [
+          12.0
+        ],
+        "cat_emb_dim_1": [
+          1.0
+        ],
+        "cat_emb_dim_2": [
+          5.0
+        ],
+        "cat_emb_dim_3": [
+          11.0
+        ],
+        "cat_emb_dim_4": [
+          10.0
+        ],
+        "cat_emb_dim_5": [
+          17.0
+        ],
+        "cat_emb_dim_6": [
+          8.0
+        ],
+        "cat_emb_dim_7": [
+          14.0
+        ],
+        "dropout_p": [
+          0.7261881054509598
+        ],
+        "hidden_dim": [
+          39.0
+        ],
+        "learning_rate": [
+          0.002801171032846289
+        ],
+        "weight_decay": [
+          1.6672141501451014e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:54:56.681000",
+    "refresh_time": "2025-02-17T02:57:00.335000"
+  },
+  {
+    "state": 2,
+    "tid": 40,
+    "spec": null,
+    "result": {
+      "loss": -0.644693868163209,
+      "status": "ok",
+      "params": {
+        "batch_size": 972.0,
+        "cat_emb_dim_0": 2.0,
+        "cat_emb_dim_1": 7.0,
+        "cat_emb_dim_2": 20.0,
+        "cat_emb_dim_3": 17.0,
+        "cat_emb_dim_4": 1.0,
+        "cat_emb_dim_5": 8.0,
+        "cat_emb_dim_6": 11.0,
+        "cat_emb_dim_7": 6.0,
+        "dropout_p": 0.49401691193398056,
+        "hidden_dim": 52.0,
+        "learning_rate": 0.0014562125097616766,
+        "weight_decay": 7.5873469202386966e-06
+      }
+    },
+    "misc": {
+      "tid": 40,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          40
+        ],
+        "cat_emb_dim_0": [
+          40
+        ],
+        "cat_emb_dim_1": [
+          40
+        ],
+        "cat_emb_dim_2": [
+          40
+        ],
+        "cat_emb_dim_3": [
+          40
+        ],
+        "cat_emb_dim_4": [
+          40
+        ],
+        "cat_emb_dim_5": [
+          40
+        ],
+        "cat_emb_dim_6": [
+          40
+        ],
+        "cat_emb_dim_7": [
+          40
+        ],
+        "dropout_p": [
+          40
+        ],
+        "hidden_dim": [
+          40
+        ],
+        "learning_rate": [
+          40
+        ],
+        "weight_decay": [
+          40
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          972.0
+        ],
+        "cat_emb_dim_0": [
+          2.0
+        ],
+        "cat_emb_dim_1": [
+          7.0
+        ],
+        "cat_emb_dim_2": [
+          20.0
+        ],
+        "cat_emb_dim_3": [
+          17.0
+        ],
+        "cat_emb_dim_4": [
+          1.0
+        ],
+        "cat_emb_dim_5": [
+          8.0
+        ],
+        "cat_emb_dim_6": [
+          11.0
+        ],
+        "cat_emb_dim_7": [
+          6.0
+        ],
+        "dropout_p": [
+          0.49401691193398056
+        ],
+        "hidden_dim": [
+          52.0
+        ],
+        "learning_rate": [
+          0.0014562125097616766
+        ],
+        "weight_decay": [
+          7.5873469202386966e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T02:57:00.365000",
+    "refresh_time": "2025-02-17T03:01:33.297000"
+  },
+  {
+    "state": 2,
+    "tid": 41,
+    "spec": null,
+    "result": {
+      "loss": -0.5505159697624853,
+      "status": "ok",
+      "params": {
+        "batch_size": 1906.0,
+        "cat_emb_dim_0": 13.0,
+        "cat_emb_dim_1": 17.0,
+        "cat_emb_dim_2": 18.0,
+        "cat_emb_dim_3": 2.0,
+        "cat_emb_dim_4": 14.0,
+        "cat_emb_dim_5": 15.0,
+        "cat_emb_dim_6": 4.0,
+        "cat_emb_dim_7": 16.0,
+        "dropout_p": 0.2518071861694775,
+        "hidden_dim": 115.0,
+        "learning_rate": 0.00036272418542021497,
+        "weight_decay": 4.433793878253194e-05
+      }
+    },
+    "misc": {
+      "tid": 41,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          41
+        ],
+        "cat_emb_dim_0": [
+          41
+        ],
+        "cat_emb_dim_1": [
+          41
+        ],
+        "cat_emb_dim_2": [
+          41
+        ],
+        "cat_emb_dim_3": [
+          41
+        ],
+        "cat_emb_dim_4": [
+          41
+        ],
+        "cat_emb_dim_5": [
+          41
+        ],
+        "cat_emb_dim_6": [
+          41
+        ],
+        "cat_emb_dim_7": [
+          41
+        ],
+        "dropout_p": [
+          41
+        ],
+        "hidden_dim": [
+          41
+        ],
+        "learning_rate": [
+          41
+        ],
+        "weight_decay": [
+          41
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1906.0
+        ],
+        "cat_emb_dim_0": [
+          13.0
+        ],
+        "cat_emb_dim_1": [
+          17.0
+        ],
+        "cat_emb_dim_2": [
+          18.0
+        ],
+        "cat_emb_dim_3": [
+          2.0
+        ],
+        "cat_emb_dim_4": [
+          14.0
+        ],
+        "cat_emb_dim_5": [
+          15.0
+        ],
+        "cat_emb_dim_6": [
+          4.0
+        ],
+        "cat_emb_dim_7": [
+          16.0
+        ],
+        "dropout_p": [
+          0.2518071861694775
+        ],
+        "hidden_dim": [
+          115.0
+        ],
+        "learning_rate": [
+          0.00036272418542021497
+        ],
+        "weight_decay": [
+          4.433793878253194e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:01:33.335000",
+    "refresh_time": "2025-02-17T03:04:36.710000"
+  },
+  {
+    "state": 2,
+    "tid": 42,
+    "spec": null,
+    "result": {
+      "loss": -0.6033856203137219,
+      "status": "ok",
+      "params": {
+        "batch_size": 912.0,
+        "cat_emb_dim_0": 9.0,
+        "cat_emb_dim_1": 11.0,
+        "cat_emb_dim_2": 12.0,
+        "cat_emb_dim_3": 6.0,
+        "cat_emb_dim_4": 8.0,
+        "cat_emb_dim_5": 13.0,
+        "cat_emb_dim_6": 7.0,
+        "cat_emb_dim_7": 2.0,
+        "dropout_p": 0.0891737369205095,
+        "hidden_dim": 80.0,
+        "learning_rate": 0.0009579104269396251,
+        "weight_decay": 0.0001835656705346129
+      }
+    },
+    "misc": {
+      "tid": 42,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          42
+        ],
+        "cat_emb_dim_0": [
+          42
+        ],
+        "cat_emb_dim_1": [
+          42
+        ],
+        "cat_emb_dim_2": [
+          42
+        ],
+        "cat_emb_dim_3": [
+          42
+        ],
+        "cat_emb_dim_4": [
+          42
+        ],
+        "cat_emb_dim_5": [
+          42
+        ],
+        "cat_emb_dim_6": [
+          42
+        ],
+        "cat_emb_dim_7": [
+          42
+        ],
+        "dropout_p": [
+          42
+        ],
+        "hidden_dim": [
+          42
+        ],
+        "learning_rate": [
+          42
+        ],
+        "weight_decay": [
+          42
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          912.0
+        ],
+        "cat_emb_dim_0": [
+          9.0
+        ],
+        "cat_emb_dim_1": [
+          11.0
+        ],
+        "cat_emb_dim_2": [
+          12.0
+        ],
+        "cat_emb_dim_3": [
+          6.0
+        ],
+        "cat_emb_dim_4": [
+          8.0
+        ],
+        "cat_emb_dim_5": [
+          13.0
+        ],
+        "cat_emb_dim_6": [
+          7.0
+        ],
+        "cat_emb_dim_7": [
+          2.0
+        ],
+        "dropout_p": [
+          0.0891737369205095
+        ],
+        "hidden_dim": [
+          80.0
+        ],
+        "learning_rate": [
+          0.0009579104269396251
+        ],
+        "weight_decay": [
+          0.0001835656705346129
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:04:36.743000",
+    "refresh_time": "2025-02-17T03:08:10.937000"
+  },
+  {
+    "state": 2,
+    "tid": 43,
+    "spec": null,
+    "result": {
+      "loss": -0.6678473404173758,
+      "status": "ok",
+      "params": {
+        "batch_size": 358.0,
+        "cat_emb_dim_0": 7.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 11.0,
+        "cat_emb_dim_3": 14.0,
+        "cat_emb_dim_4": 12.0,
+        "cat_emb_dim_5": 12.0,
+        "cat_emb_dim_6": 2.0,
+        "cat_emb_dim_7": 12.0,
+        "dropout_p": 0.3096118566685534,
+        "hidden_dim": 45.0,
+        "learning_rate": 0.003784455592077099,
+        "weight_decay": 2.385465699555346e-06
+      }
+    },
+    "misc": {
+      "tid": 43,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          43
+        ],
+        "cat_emb_dim_0": [
+          43
+        ],
+        "cat_emb_dim_1": [
+          43
+        ],
+        "cat_emb_dim_2": [
+          43
+        ],
+        "cat_emb_dim_3": [
+          43
+        ],
+        "cat_emb_dim_4": [
+          43
+        ],
+        "cat_emb_dim_5": [
+          43
+        ],
+        "cat_emb_dim_6": [
+          43
+        ],
+        "cat_emb_dim_7": [
+          43
+        ],
+        "dropout_p": [
+          43
+        ],
+        "hidden_dim": [
+          43
+        ],
+        "learning_rate": [
+          43
+        ],
+        "weight_decay": [
+          43
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          358.0
+        ],
+        "cat_emb_dim_0": [
+          7.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          11.0
+        ],
+        "cat_emb_dim_3": [
+          14.0
+        ],
+        "cat_emb_dim_4": [
+          12.0
+        ],
+        "cat_emb_dim_5": [
+          12.0
+        ],
+        "cat_emb_dim_6": [
+          2.0
+        ],
+        "cat_emb_dim_7": [
+          12.0
+        ],
+        "dropout_p": [
+          0.3096118566685534
+        ],
+        "hidden_dim": [
+          45.0
+        ],
+        "learning_rate": [
+          0.003784455592077099
+        ],
+        "weight_decay": [
+          2.385465699555346e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:08:10.975000",
+    "refresh_time": "2025-02-17T03:14:12.672000"
+  },
+  {
+    "state": 2,
+    "tid": 44,
+    "spec": null,
+    "result": {
+      "loss": -0.6549442629989113,
+      "status": "ok",
+      "params": {
+        "batch_size": 1591.0,
+        "cat_emb_dim_0": 5.0,
+        "cat_emb_dim_1": 2.0,
+        "cat_emb_dim_2": 8.0,
+        "cat_emb_dim_3": 5.0,
+        "cat_emb_dim_4": 18.0,
+        "cat_emb_dim_5": 5.0,
+        "cat_emb_dim_6": 17.0,
+        "cat_emb_dim_7": 6.0,
+        "dropout_p": 0.34880979744636054,
+        "hidden_dim": 28.0,
+        "learning_rate": 0.0055760124923639335,
+        "weight_decay": 1.4556135397164952e-06
+      }
+    },
+    "misc": {
+      "tid": 44,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          44
+        ],
+        "cat_emb_dim_0": [
+          44
+        ],
+        "cat_emb_dim_1": [
+          44
+        ],
+        "cat_emb_dim_2": [
+          44
+        ],
+        "cat_emb_dim_3": [
+          44
+        ],
+        "cat_emb_dim_4": [
+          44
+        ],
+        "cat_emb_dim_5": [
+          44
+        ],
+        "cat_emb_dim_6": [
+          44
+        ],
+        "cat_emb_dim_7": [
+          44
+        ],
+        "dropout_p": [
+          44
+        ],
+        "hidden_dim": [
+          44
+        ],
+        "learning_rate": [
+          44
+        ],
+        "weight_decay": [
+          44
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1591.0
+        ],
+        "cat_emb_dim_0": [
+          5.0
+        ],
+        "cat_emb_dim_1": [
+          2.0
+        ],
+        "cat_emb_dim_2": [
+          8.0
+        ],
+        "cat_emb_dim_3": [
+          5.0
+        ],
+        "cat_emb_dim_4": [
+          18.0
+        ],
+        "cat_emb_dim_5": [
+          5.0
+        ],
+        "cat_emb_dim_6": [
+          17.0
+        ],
+        "cat_emb_dim_7": [
+          6.0
+        ],
+        "dropout_p": [
+          0.34880979744636054
+        ],
+        "hidden_dim": [
+          28.0
+        ],
+        "learning_rate": [
+          0.0055760124923639335
+        ],
+        "weight_decay": [
+          1.4556135397164952e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:14:12.708000",
+    "refresh_time": "2025-02-17T03:16:30.504000"
+  },
+  {
+    "state": 2,
+    "tid": 45,
+    "spec": null,
+    "result": {
+      "loss": -0.3378873606574973,
+      "status": "ok",
+      "params": {
+        "batch_size": 1733.0,
+        "cat_emb_dim_0": 18.0,
+        "cat_emb_dim_1": 9.0,
+        "cat_emb_dim_2": 4.0,
+        "cat_emb_dim_3": 12.0,
+        "cat_emb_dim_4": 3.0,
+        "cat_emb_dim_5": 10.0,
+        "cat_emb_dim_6": 4.0,
+        "cat_emb_dim_7": 14.0,
+        "dropout_p": 0.8761467063818218,
+        "hidden_dim": 10.0,
+        "learning_rate": 0.00021833940575465227,
+        "weight_decay": 1.2491236866209016e-05
+      }
+    },
+    "misc": {
+      "tid": 45,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          45
+        ],
+        "cat_emb_dim_0": [
+          45
+        ],
+        "cat_emb_dim_1": [
+          45
+        ],
+        "cat_emb_dim_2": [
+          45
+        ],
+        "cat_emb_dim_3": [
+          45
+        ],
+        "cat_emb_dim_4": [
+          45
+        ],
+        "cat_emb_dim_5": [
+          45
+        ],
+        "cat_emb_dim_6": [
+          45
+        ],
+        "cat_emb_dim_7": [
+          45
+        ],
+        "dropout_p": [
+          45
+        ],
+        "hidden_dim": [
+          45
+        ],
+        "learning_rate": [
+          45
+        ],
+        "weight_decay": [
+          45
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1733.0
+        ],
+        "cat_emb_dim_0": [
+          18.0
+        ],
+        "cat_emb_dim_1": [
+          9.0
+        ],
+        "cat_emb_dim_2": [
+          4.0
+        ],
+        "cat_emb_dim_3": [
+          12.0
+        ],
+        "cat_emb_dim_4": [
+          3.0
+        ],
+        "cat_emb_dim_5": [
+          10.0
+        ],
+        "cat_emb_dim_6": [
+          4.0
+        ],
+        "cat_emb_dim_7": [
+          14.0
+        ],
+        "dropout_p": [
+          0.8761467063818218
+        ],
+        "hidden_dim": [
+          10.0
+        ],
+        "learning_rate": [
+          0.00021833940575465227
+        ],
+        "weight_decay": [
+          1.2491236866209016e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:16:30.536000",
+    "refresh_time": "2025-02-17T03:18:21.868000"
+  },
+  {
+    "state": 2,
+    "tid": 46,
+    "spec": null,
+    "result": {
+      "loss": -0.5436389285002377,
+      "status": "ok",
+      "params": {
+        "batch_size": 1506.0,
+        "cat_emb_dim_0": 3.0,
+        "cat_emb_dim_1": 11.0,
+        "cat_emb_dim_2": 16.0,
+        "cat_emb_dim_3": 18.0,
+        "cat_emb_dim_4": 5.0,
+        "cat_emb_dim_5": 18.0,
+        "cat_emb_dim_6": 6.0,
+        "cat_emb_dim_7": 7.0,
+        "dropout_p": 0.42825790836254934,
+        "hidden_dim": 61.0,
+        "learning_rate": 0.0003241269658111596,
+        "weight_decay": 6.184302525140615e-06
+      }
+    },
+    "misc": {
+      "tid": 46,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          46
+        ],
+        "cat_emb_dim_0": [
+          46
+        ],
+        "cat_emb_dim_1": [
+          46
+        ],
+        "cat_emb_dim_2": [
+          46
+        ],
+        "cat_emb_dim_3": [
+          46
+        ],
+        "cat_emb_dim_4": [
+          46
+        ],
+        "cat_emb_dim_5": [
+          46
+        ],
+        "cat_emb_dim_6": [
+          46
+        ],
+        "cat_emb_dim_7": [
+          46
+        ],
+        "dropout_p": [
+          46
+        ],
+        "hidden_dim": [
+          46
+        ],
+        "learning_rate": [
+          46
+        ],
+        "weight_decay": [
+          46
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1506.0
+        ],
+        "cat_emb_dim_0": [
+          3.0
+        ],
+        "cat_emb_dim_1": [
+          11.0
+        ],
+        "cat_emb_dim_2": [
+          16.0
+        ],
+        "cat_emb_dim_3": [
+          18.0
+        ],
+        "cat_emb_dim_4": [
+          5.0
+        ],
+        "cat_emb_dim_5": [
+          18.0
+        ],
+        "cat_emb_dim_6": [
+          6.0
+        ],
+        "cat_emb_dim_7": [
+          7.0
+        ],
+        "dropout_p": [
+          0.42825790836254934
+        ],
+        "hidden_dim": [
+          61.0
+        ],
+        "learning_rate": [
+          0.0003241269658111596
+        ],
+        "weight_decay": [
+          6.184302525140615e-06
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:18:21.905000",
+    "refresh_time": "2025-02-17T03:21:35.367000"
+  },
+  {
+    "state": 2,
+    "tid": 47,
+    "spec": null,
+    "result": {
+      "loss": -0.5927212229940046,
+      "status": "ok",
+      "params": {
+        "batch_size": 1049.0,
+        "cat_emb_dim_0": 13.0,
+        "cat_emb_dim_1": 15.0,
+        "cat_emb_dim_2": 10.0,
+        "cat_emb_dim_3": 8.0,
+        "cat_emb_dim_4": 4.0,
+        "cat_emb_dim_5": 11.0,
+        "cat_emb_dim_6": 9.0,
+        "cat_emb_dim_7": 4.0,
+        "dropout_p": 0.7699497462550497,
+        "hidden_dim": 36.0,
+        "learning_rate": 0.0006048764124333663,
+        "weight_decay": 1.791159423523037e-05
+      }
+    },
+    "misc": {
+      "tid": 47,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          47
+        ],
+        "cat_emb_dim_0": [
+          47
+        ],
+        "cat_emb_dim_1": [
+          47
+        ],
+        "cat_emb_dim_2": [
+          47
+        ],
+        "cat_emb_dim_3": [
+          47
+        ],
+        "cat_emb_dim_4": [
+          47
+        ],
+        "cat_emb_dim_5": [
+          47
+        ],
+        "cat_emb_dim_6": [
+          47
+        ],
+        "cat_emb_dim_7": [
+          47
+        ],
+        "dropout_p": [
+          47
+        ],
+        "hidden_dim": [
+          47
+        ],
+        "learning_rate": [
+          47
+        ],
+        "weight_decay": [
+          47
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          1049.0
+        ],
+        "cat_emb_dim_0": [
+          13.0
+        ],
+        "cat_emb_dim_1": [
+          15.0
+        ],
+        "cat_emb_dim_2": [
+          10.0
+        ],
+        "cat_emb_dim_3": [
+          8.0
+        ],
+        "cat_emb_dim_4": [
+          4.0
+        ],
+        "cat_emb_dim_5": [
+          11.0
+        ],
+        "cat_emb_dim_6": [
+          9.0
+        ],
+        "cat_emb_dim_7": [
+          4.0
+        ],
+        "dropout_p": [
+          0.7699497462550497
+        ],
+        "hidden_dim": [
+          36.0
+        ],
+        "learning_rate": [
+          0.0006048764124333663
+        ],
+        "weight_decay": [
+          1.791159423523037e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:21:35.406000",
+    "refresh_time": "2025-02-17T03:24:36.832000"
+  },
+  {
+    "state": 2,
+    "tid": 48,
+    "spec": null,
+    "result": {
+      "loss": -0.5353665455326065,
+      "status": "ok",
+      "params": {
+        "batch_size": 754.0,
+        "cat_emb_dim_0": 10.0,
+        "cat_emb_dim_1": 5.0,
+        "cat_emb_dim_2": 14.0,
+        "cat_emb_dim_3": 16.0,
+        "cat_emb_dim_4": 7.0,
+        "cat_emb_dim_5": 16.0,
+        "cat_emb_dim_6": 11.0,
+        "cat_emb_dim_7": 9.0,
+        "dropout_p": 0.21742395900523512,
+        "hidden_dim": 16.0,
+        "learning_rate": 0.00011646721256651469,
+        "weight_decay": 0.000355050004356219
+      }
+    },
+    "misc": {
+      "tid": 48,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          48
+        ],
+        "cat_emb_dim_0": [
+          48
+        ],
+        "cat_emb_dim_1": [
+          48
+        ],
+        "cat_emb_dim_2": [
+          48
+        ],
+        "cat_emb_dim_3": [
+          48
+        ],
+        "cat_emb_dim_4": [
+          48
+        ],
+        "cat_emb_dim_5": [
+          48
+        ],
+        "cat_emb_dim_6": [
+          48
+        ],
+        "cat_emb_dim_7": [
+          48
+        ],
+        "dropout_p": [
+          48
+        ],
+        "hidden_dim": [
+          48
+        ],
+        "learning_rate": [
+          48
+        ],
+        "weight_decay": [
+          48
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          754.0
+        ],
+        "cat_emb_dim_0": [
+          10.0
+        ],
+        "cat_emb_dim_1": [
+          5.0
+        ],
+        "cat_emb_dim_2": [
+          14.0
+        ],
+        "cat_emb_dim_3": [
+          16.0
+        ],
+        "cat_emb_dim_4": [
+          7.0
+        ],
+        "cat_emb_dim_5": [
+          16.0
+        ],
+        "cat_emb_dim_6": [
+          11.0
+        ],
+        "cat_emb_dim_7": [
+          9.0
+        ],
+        "dropout_p": [
+          0.21742395900523512
+        ],
+        "hidden_dim": [
+          16.0
+        ],
+        "learning_rate": [
+          0.00011646721256651469
+        ],
+        "weight_decay": [
+          0.000355050004356219
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:24:36.862000",
+    "refresh_time": "2025-02-17T03:29:04.079000"
+  },
+  {
+    "state": 2,
+    "tid": 49,
+    "spec": null,
+    "result": {
+      "loss": -0.6144563534047871,
+      "status": "ok",
+      "params": {
+        "batch_size": 853.0,
+        "cat_emb_dim_0": 6.0,
+        "cat_emb_dim_1": 3.0,
+        "cat_emb_dim_2": 6.0,
+        "cat_emb_dim_3": 4.0,
+        "cat_emb_dim_4": 13.0,
+        "cat_emb_dim_5": 8.0,
+        "cat_emb_dim_6": 12.0,
+        "cat_emb_dim_7": 11.0,
+        "dropout_p": 0.5129316459698176,
+        "hidden_dim": 56.0,
+        "learning_rate": 0.0028291429805073235,
+        "weight_decay": 6.108284637405362e-05
+      }
+    },
+    "misc": {
+      "tid": 49,
+      "cmd": [
+        "domain_attachment",
+        "FMinIter_Domain"
+      ],
+      "workdir": null,
+      "idxs": {
+        "batch_size": [
+          49
+        ],
+        "cat_emb_dim_0": [
+          49
+        ],
+        "cat_emb_dim_1": [
+          49
+        ],
+        "cat_emb_dim_2": [
+          49
+        ],
+        "cat_emb_dim_3": [
+          49
+        ],
+        "cat_emb_dim_4": [
+          49
+        ],
+        "cat_emb_dim_5": [
+          49
+        ],
+        "cat_emb_dim_6": [
+          49
+        ],
+        "cat_emb_dim_7": [
+          49
+        ],
+        "dropout_p": [
+          49
+        ],
+        "hidden_dim": [
+          49
+        ],
+        "learning_rate": [
+          49
+        ],
+        "weight_decay": [
+          49
+        ]
+      },
+      "vals": {
+        "batch_size": [
+          853.0
+        ],
+        "cat_emb_dim_0": [
+          6.0
+        ],
+        "cat_emb_dim_1": [
+          3.0
+        ],
+        "cat_emb_dim_2": [
+          6.0
+        ],
+        "cat_emb_dim_3": [
+          4.0
+        ],
+        "cat_emb_dim_4": [
+          13.0
+        ],
+        "cat_emb_dim_5": [
+          8.0
+        ],
+        "cat_emb_dim_6": [
+          12.0
+        ],
+        "cat_emb_dim_7": [
+          11.0
+        ],
+        "dropout_p": [
+          0.5129316459698176
+        ],
+        "hidden_dim": [
+          56.0
+        ],
+        "learning_rate": [
+          0.0028291429805073235
+        ],
+        "weight_decay": [
+          6.108284637405362e-05
+        ]
+      }
+    },
+    "exp_key": null,
+    "owner": null,
+    "version": 0,
+    "book_time": "2025-02-17T03:29:04.123000",
+    "refresh_time": "2025-02-17T03:31:39.704000"
+  }
+]
