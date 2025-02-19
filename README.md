@@ -59,14 +59,6 @@ The model uses a TabularModel architecture that:
 - Built-in training and validation methods
 - Prediction functionality for inference
 
-## Installation
-
-1. Clone the repository
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
 ## Installation and Usage
 
 1. Clone repository
