@@ -3,8 +3,8 @@
 import argparse
 import torch
 from torch.utils.data import DataLoader
-from dataset import TreeHealthDataset
-from model import TabularModel
+from src.dataset import TreeHealthDataset
+from src.model import TabularModel
 from src.utils.hyperoptimization import load_best_trial
 
 import pandas as pd
@@ -33,7 +33,7 @@ def main():
     )
     parser.add_argument(
         "--cat_features",
-        type=Optional[List[str]],
+        type=List[str],
         default=[
             "spc_latin",
             "user_type",
@@ -56,16 +56,16 @@ def main():
     )
     parser.add_argument(
         "--target_column",
-        type=Optional[str],
+        type=str,
         default="health",
         required=False,
         help="Name of the target column in the dataset.",
     )
     parser.add_argument(
-        "--test_size", type=float, default=0.2, help="Size of the test dataset."
+        "--test_size", type=float, default=0.2, help="Size of the test dataset.", required=False
     )
     parser.add_argument(
-        "--model_file", type=Optional[str], default=None, help="Path to saved model."
+        "--model_file", type=str, required=False, default=None, help="Path to saved model."
     )
     parser.add_argument(
         "--model_save",
@@ -74,31 +74,35 @@ def main():
         help="Path to save model.",
     )
     parser.add_argument(
-        "--epochs", type=int, default=10, help="Number of epochs to train the model."
+        "--epochs", type=int, default=10, help="Number of epochs to train the model.", required=False
     )
     parser.add_argument(
-        "--batch_size", type=int, default=512, help="Batch size for DataLoader."
+        "--batch_size", type=int, default=512, help="Batch size for DataLoader.", required=False
     )
     parser.add_argument(
         "--hyperparam_file",
-        type=Optional[str],
+        type=str,
+        required=False,
         default=None,
         help="File with hyperparameters for the model in json format.",
+        required=False,
     )
     parser.add_argument(
-        "--lr", type=float, default=1e-3, help="Learning rate for optimizer."
+        "--lr", type=float, default=1e-3, help="Learning rate for optimizer.", required=False
     )
     parser.add_argument(
         "--weight_decay",
         type=float,
         default=1e-5,
         help="Weight decay (L2 regularization).",
+        required=False
     )
     parser.add_argument(
         "--device",
         type=str,
         default="cuda",
         help="Device to use (e.g., 'cpu' or 'cuda').",
+        required=False
     )
 
     args = parser.parse_args()
@@ -160,11 +164,11 @@ def main():
 
         model = (
             TabularModel(
-                cat_cardinalities,
-                CAT_EMBEDDING_DIMS,
-                num_numeric_features,
-                HIDDEN_DIMS,
-                num_classes,
+                cat_cardinalities=cat_cardinalities,
+                cat_embedding_dims=CAT_EMBEDDING_DIMS,
+                num_numeric_features=num_numeric_features,
+                hidden_dims=HIDDEN_DIMS,
+                num_classes=num_classes,
                 dropout_p=DROPOUT_P,
             )
             if args.hyperparam_file
@@ -174,15 +178,19 @@ def main():
                 num_classes=num_classes,
             )
         )
+    if args.device == "cuda" and torch.cuda.is_available():
+        device = torch.device("cuda")
+    else:
+        device = torch.device("cpu")
 
-    model = model.to(args.device)
+    model = model.to(device)
 
     y_train_np = y_train.values
     class_weights = compute_class_weight(
         class_weight="balanced", classes=np.unique(y_train_np), y=y_train_np
     )
     class_weights = torch.tensor(
-        class_weights, dtype=torch.float).to(args.device)
+        class_weights, dtype=torch.float).to(device)
 
     optimizer = torch.optim.Adam(
         model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY
@@ -197,7 +205,7 @@ def main():
         optimizer,
         criterion,
         val_loader,
-        args.device,
+        device,
         verbose=True,
     )
 
