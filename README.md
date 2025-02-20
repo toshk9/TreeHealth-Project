@@ -97,24 +97,8 @@ uvicorn src.main:app --host 0.0.0.0 --port 8000
 
 ### Model Training
 
-```python
-from src.model import TabularModel
-from src.dataset import TreeHealthDataset
-
-# Initialize model
-model = TabularModel(cat_cardinalities, CAT_EMBEDDING_DIMS, num_numeric_features, HIDDEN_DIMS, num_classes, dropout_p=DROPOUT_P)
-# OR
-model = torch.load("../models/torch_models/model_v1.pth", weights_only=False)
-
-model = model.to(device)
-
-# Train model
-for epoch in range(num_epochs):
-    epoch_loss = model.train_epoch(train_loader, train_dataset, optimizer, criterion, device)
-    print(f"Epoch {epoch+1}/{num_epochs}, Training Loss: {epoch_loss:.4f}")
-    
-    val_accuracy = model.validate_model(val_loader, device)
-    print(f"Validation Accuracy: {val_accuracy:.4f}")
+```bash
+python src/utils/model_training.py --train_data "data/processed/tree-data-processed-vec.csv" -- OUTHER PARAMS
 ```
 
 ### Inference

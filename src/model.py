@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from sklearn.utils.class_weight import compute_class_weight
 import numpy as np
+from typing import List
 
 from src.dataset import TreeHealthDataset
 
@@ -11,8 +12,17 @@ class TabularModel(nn.Module):
     def __init__(
         self,
         cat_cardinalities,
-        cat_embedding_dims,
         num_numeric_features,
+        cat_embedding_dims: List[int] = [
+            17,
+            14,
+            2,
+            18,
+            16,
+            16,
+            10,
+            17,
+        ],
         hidden_dims=[128, 64],
         num_classes: int = 3,
         dropout_p: float = 0.5,
@@ -119,6 +129,28 @@ class TabularModel(nn.Module):
             running_loss += loss.item() * x_cat.size(0)
         epoch_loss = running_loss / len(train_dataset)
         return epoch_loss
+
+    def train_model(
+        self,
+        num_epochs: int,
+        train_loader,
+        train_dataset,
+        optimizer,
+        criterion,
+        val_loader,
+        device,
+        verbose: bool = True,
+    ):
+        for i in range(num_epochs):
+            train_loss = self.train_epoch(
+                train_loader, train_dataset, optimizer, criterion, device
+            )
+            val_accuracy = self.validate_model(val_loader, device)
+            if verbose:
+                print(
+                    f"Epoch {i+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Val Accuracy: {val_accuracy:.4f}"
+                )
+        return self
 
     def validate_model(self, val_loader, device):
         """
