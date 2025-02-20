@@ -141,6 +141,27 @@ class TabularModel(nn.Module):
         device,
         verbose: bool = True,
     ):
+        """
+        Trains the model for a specified number of epochs and validates it after each epoch.
+    
+        This method iterates over the training data for a given number of epochs. In each epoch,
+        it performs training using the provided train_loader and train_dataset, then evaluates the 
+        model on the validation set using val_loader. If verbose is True, it prints the training 
+        loss and validation accuracy for each epoch.
+    
+        Args:
+            num_epochs (int): The number of epochs to train the model.
+            train_loader: DataLoader for the training dataset.
+            train_dataset: The complete training dataset (used to compute average training loss).
+            optimizer: The optimizer used to update model parameters.
+            criterion: The loss function used during training.
+            val_loader: DataLoader for the validation dataset.
+            device: The device ('cpu' or 'cuda') on which training is performed.
+            verbose (bool, optional): If True, prints training progress for each epoch. Defaults to True.
+    
+        Returns:
+            self: The trained model instance.
+        """
         for i in range(num_epochs):
             train_loss = self.train_epoch(
                 train_loader, train_dataset, optimizer, criterion, device
