@@ -19,22 +19,23 @@ class InputData(BaseModel):
     scientific_name: str = Field(
         ..., description="Scientific name of species, e.g. 'Acer rubrum'"
     )
-    user_type: str = Field(..., description="Category of user who collected the data")
+    user_type: str = Field(...,
+                           description="Category of user who collected the data")
 
-    root_stone: str = Field(..., description="Root problems from paving stones")
+    root_stone: str = Field(...,
+                            description="Root problems from paving stones")
     root_grate: str = Field(..., description="Root problems from metal grates")
     root_other: str = Field(..., description="Other root problems")
     trunk_wire: str = Field(..., description="Trunk problems from wires/ropes")
     trnk_light: str = Field(..., description="Trunk problems from lights")
     trnk_other: str = Field(..., description="Other trunk problems")
-    brch_light: str = Field(..., description="Branch problems from lights/wires")
+    brch_light: str = Field(...,
+                            description="Branch problems from lights/wires")
     brch_shoe: str = Field(..., description="Branch problems from shoes")
     brch_other: str = Field(..., description="Other branch problems")
 
     address: str = Field(..., description="Nearest estimated street address")
-    postcode: int = Field(
-        ..., min_length=5, max_length=5, description="5-digit ZIP code"
-    )
+    postcode: int = Field(..., description="5-digit ZIP code")
     nta: str = Field(..., description="Neighborhood Tabulation Area code")
     censustract: int = Field(..., description="Census tract identifier")
 
@@ -42,15 +43,18 @@ class InputData(BaseModel):
         ...,
         description="Location relative to curb: OnCurb (2.5ft) или OffsetFromCurb (12ft)",
     )
-    steward: str = Field(..., description="Number of stewardship signs: 0-4 or None")
+    steward: str = Field(...,
+                         description="Number of stewardship signs: 0-4 or None")
     guards: str = Field(
         ..., description="Tree guard presence and type: Helpful/Harmful/None"
     )
     sidewalk: str = Field(..., description="Sidewalk damage: Damage/NoDamage")
 
-    mapping_date: date = Field(..., description="The date tree points were collected.")
+    mapping_date: date = Field(...,
+                               description="The date tree points were collected.")
 
-    allowed_values: ClassVar[Dict[str, Union[int, str]]] = unique_tree_data_values
+    allowed_values: ClassVar[Dict[str, Union[int, str]]
+                             ] = unique_tree_data_values
     tree_problems: ClassVar[List[str]] = [
         "root_stone",
         "root_grate",
