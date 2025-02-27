@@ -98,7 +98,7 @@ uvicorn src.main:app --host 0.0.0.0 --port 8000
 ### Model Training
 
 ```bash
-python src/utils/model_training.py --train_data "data/processed/tree-data-processed-vec.csv" -- OUTHER PARAMS
+python -m src.utils.model_training --train_data "data/processed/tree-data-processed-vec.csv" -- OUTHER PARAMS
 ```
 
 ### Inference
